@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1EC9110E21FFB3E00019F069 /* ViperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC9110D21FFB3E00019F069 /* ViperViewController.swift */; };
+		1EC9111021FFB4220019F069 /* PresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC9110F21FFB4220019F069 /* PresenterProtocol.swift */; };
+		1EC9111221FFB43B0019F069 /* ViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC9111121FFB43B0019F069 /* ViewProtocol.swift */; };
+		1EC9111421FFB7610019F069 /* MainListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC9111321FFB7610019F069 /* MainListPresenter.swift */; };
+		1EC9111621FFB79A0019F069 /* MainListPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC9111521FFB79A0019F069 /* MainListPresenterProtocol.swift */; };
+		1EC9111821FFB8A30019F069 /* MainListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC9111721FFB8A30019F069 /* MainListViewController.swift */; };
 		1EE2B0FA21FA5D7800A090D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE2B0F921FA5D7800A090D4 /* AppDelegate.swift */; };
 		1EE2B0FC21FA5D7800A090D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE2B0FB21FA5D7800A090D4 /* ViewController.swift */; };
 		1EE2B0FF21FA5D7800A090D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EE2B0FD21FA5D7800A090D4 /* Main.storyboard */; };
@@ -35,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1EC9110D21FFB3E00019F069 /* ViperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperViewController.swift; sourceTree = "<group>"; };
+		1EC9110F21FFB4220019F069 /* PresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenterProtocol.swift; sourceTree = "<group>"; };
+		1EC9111121FFB43B0019F069 /* ViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewProtocol.swift; sourceTree = "<group>"; };
+		1EC9111321FFB7610019F069 /* MainListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListPresenter.swift; sourceTree = "<group>"; };
+		1EC9111521FFB79A0019F069 /* MainListPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListPresenterProtocol.swift; sourceTree = "<group>"; };
+		1EC9111721FFB8A30019F069 /* MainListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListViewController.swift; sourceTree = "<group>"; };
 		1EE2B0F621FA5D7800A090D4 /* LocalBitcoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalBitcoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EE2B0F921FA5D7800A090D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EE2B0FB21FA5D7800A090D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +88,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1EC9110421FFB2730019F069 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		1EC9110521FFB2810019F069 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		1EC9110621FFB2A80019F069 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		1EC9110721FFB2B40019F069 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				1EC9111521FFB79A0019F069 /* MainListPresenterProtocol.swift */,
+				1EC9111321FFB7610019F069 /* MainListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		1EC9110921FFB2D40019F069 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1EC9111721FFB8A30019F069 /* MainListViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1EC9110A21FFB30C0019F069 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1EC9110B21FFB3BD0019F069 /* Architecture */ = {
+			isa = PBXGroup;
+			children = (
+				1EC9110C21FFB3CA0019F069 /* Viper */,
+			);
+			path = Architecture;
+			sourceTree = "<group>";
+		};
+		1EC9110C21FFB3CA0019F069 /* Viper */ = {
+			isa = PBXGroup;
+			children = (
+				1EC9110D21FFB3E00019F069 /* ViperViewController.swift */,
+				1EC9110F21FFB4220019F069 /* PresenterProtocol.swift */,
+				1EC9111121FFB43B0019F069 /* ViewProtocol.swift */,
+			);
+			path = Viper;
+			sourceTree = "<group>";
+		};
 		1EE2B0ED21FA5D7700A090D4 = {
 			isa = PBXGroup;
 			children = (
@@ -99,12 +174,13 @@
 		1EE2B0F821FA5D7800A090D4 /* LocalBitcoin */ = {
 			isa = PBXGroup;
 			children = (
+				1EC9110B21FFB3BD0019F069 /* Architecture */,
 				1EE2B0F921FA5D7800A090D4 /* AppDelegate.swift */,
-				1EE2B12A21FA5DF500A090D4 /* MainList */,
 				1EE2B10321FA5D7900A090D4 /* Assets.xcassets */,
-				1EE2B10521FA5D7900A090D4 /* LaunchScreen.storyboard */,
-				1EE2B10821FA5D7900A090D4 /* Info.plist */,
 				1EE2B12B21FA5E0800A090D4 /* CoreData */,
+				1EE2B10821FA5D7900A090D4 /* Info.plist */,
+				1EE2B10521FA5D7900A090D4 /* LaunchScreen.storyboard */,
+				1EE2B12A21FA5DF500A090D4 /* MainList */,
 			);
 			path = LocalBitcoin;
 			sourceTree = "<group>";
@@ -130,6 +206,12 @@
 		1EE2B12A21FA5DF500A090D4 /* MainList */ = {
 			isa = PBXGroup;
 			children = (
+				1EC9110A21FFB30C0019F069 /* Model */,
+				1EC9110921FFB2D40019F069 /* View */,
+				1EC9110721FFB2B40019F069 /* Presenter */,
+				1EC9110621FFB2A80019F069 /* Interactor */,
+				1EC9110521FFB2810019F069 /* Router */,
+				1EC9110421FFB2730019F069 /* Builder */,
 				1EE2B0FD21FA5D7800A090D4 /* Main.storyboard */,
 				1EE2B0FB21FA5D7800A090D4 /* ViewController.swift */,
 			);
@@ -275,9 +357,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EC9111821FFB8A30019F069 /* MainListViewController.swift in Sources */,
 				1EE2B0FC21FA5D7800A090D4 /* ViewController.swift in Sources */,
+				1EC9110E21FFB3E00019F069 /* ViperViewController.swift in Sources */,
 				1EE2B10221FA5D7800A090D4 /* LocalBitcoin.xcdatamodeld in Sources */,
+				1EC9111421FFB7610019F069 /* MainListPresenter.swift in Sources */,
 				1EE2B0FA21FA5D7800A090D4 /* AppDelegate.swift in Sources */,
+				1EC9111621FFB79A0019F069 /* MainListPresenterProtocol.swift in Sources */,
+				1EC9111221FFB43B0019F069 /* ViewProtocol.swift in Sources */,
+				1EC9111021FFB4220019F069 /* PresenterProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
