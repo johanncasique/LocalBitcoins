@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1EB64490220103B3002F2188 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB6448F220103B3002F2188 /* Result.swift */; };
+		1EB64495220105CB002F2188 /* VendorsDataManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB64494220105CB002F2188 /* VendorsDataManagerProtocol.swift */; };
+		1EB64499220106E8002F2188 /* WebServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB64498220106E8002F2188 /* WebServiceProtocol.swift */; };
+		1EB6449B220107A6002F2188 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB6449A220107A6002F2188 /* WebService.swift */; };
+		1EB6449D22010AA0002F2188 /* MainListInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB6449C22010AA0002F2188 /* MainListInteractorProtocol.swift */; };
+		1EB6449F22010BAF002F2188 /* MainListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB6449E22010BAF002F2188 /* MainListInteractor.swift */; };
 		1EC9110E21FFB3E00019F069 /* ViperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC9110D21FFB3E00019F069 /* ViperViewController.swift */; };
 		1EC9111021FFB4220019F069 /* PresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC9110F21FFB4220019F069 /* PresenterProtocol.swift */; };
 		1EC9111221FFB43B0019F069 /* ViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC9111121FFB43B0019F069 /* ViewProtocol.swift */; };
@@ -41,6 +47,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1EB6448F220103B3002F2188 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		1EB64494220105CB002F2188 /* VendorsDataManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendorsDataManagerProtocol.swift; sourceTree = "<group>"; };
+		1EB64498220106E8002F2188 /* WebServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceProtocol.swift; sourceTree = "<group>"; };
+		1EB6449A220107A6002F2188 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		1EB6449C22010AA0002F2188 /* MainListInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListInteractorProtocol.swift; sourceTree = "<group>"; };
+		1EB6449E22010BAF002F2188 /* MainListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListInteractor.swift; sourceTree = "<group>"; };
 		1EC9110D21FFB3E00019F069 /* ViperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperViewController.swift; sourceTree = "<group>"; };
 		1EC9110F21FFB4220019F069 /* PresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenterProtocol.swift; sourceTree = "<group>"; };
 		1EC9111121FFB43B0019F069 /* ViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewProtocol.swift; sourceTree = "<group>"; };
@@ -88,6 +100,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1EB6448C2201037F002F2188 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				1EB64496220106C3002F2188 /* Services */,
+				1EB6448D2201038F002F2188 /* Utilities */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		1EB6448D2201038F002F2188 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				1EB6448E220103A5002F2188 /* Result */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		1EB6448E220103A5002F2188 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				1EB6448F220103B3002F2188 /* Result.swift */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		1EB6449122010462002F2188 /* Domains */ = {
+			isa = PBXGroup;
+			children = (
+				1EB644922201054C002F2188 /* Vendors */,
+			);
+			path = Domains;
+			sourceTree = "<group>";
+		};
+		1EB644922201054C002F2188 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				1EB6449322010591002F2188 /* DataManager */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		1EB6449322010591002F2188 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				1EB64494220105CB002F2188 /* VendorsDataManagerProtocol.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		1EB64496220106C3002F2188 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1EB64497220106CD002F2188 /* Web */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1EB64497220106CD002F2188 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				1EB64498220106E8002F2188 /* WebServiceProtocol.swift */,
+				1EB6449A220107A6002F2188 /* WebService.swift */,
+			);
+			path = Web;
+			sourceTree = "<group>";
+		};
 		1EC9110421FFB2730019F069 /* Builder */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +183,8 @@
 		1EC9110621FFB2A80019F069 /* Interactor */ = {
 			isa = PBXGroup;
 			children = (
+				1EB6449C22010AA0002F2188 /* MainListInteractorProtocol.swift */,
+				1EB6449E22010BAF002F2188 /* MainListInteractor.swift */,
 			);
 			path = Interactor;
 			sourceTree = "<group>";
@@ -174,6 +254,8 @@
 		1EE2B0F821FA5D7800A090D4 /* LocalBitcoin */ = {
 			isa = PBXGroup;
 			children = (
+				1EB6449122010462002F2188 /* Domains */,
+				1EB6448C2201037F002F2188 /* Shared */,
 				1EC9110B21FFB3BD0019F069 /* Architecture */,
 				1EE2B0F921FA5D7800A090D4 /* AppDelegate.swift */,
 				1EE2B10321FA5D7900A090D4 /* Assets.xcassets */,
@@ -357,11 +439,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EB6449F22010BAF002F2188 /* MainListInteractor.swift in Sources */,
+				1EB6449B220107A6002F2188 /* WebService.swift in Sources */,
+				1EB64499220106E8002F2188 /* WebServiceProtocol.swift in Sources */,
 				1EC9111821FFB8A30019F069 /* MainListViewController.swift in Sources */,
 				1EE2B0FC21FA5D7800A090D4 /* ViewController.swift in Sources */,
 				1EC9110E21FFB3E00019F069 /* ViperViewController.swift in Sources */,
 				1EE2B10221FA5D7800A090D4 /* LocalBitcoin.xcdatamodeld in Sources */,
+				1EB6449D22010AA0002F2188 /* MainListInteractorProtocol.swift in Sources */,
 				1EC9111421FFB7610019F069 /* MainListPresenter.swift in Sources */,
+				1EB64495220105CB002F2188 /* VendorsDataManagerProtocol.swift in Sources */,
+				1EB64490220103B3002F2188 /* Result.swift in Sources */,
 				1EE2B0FA21FA5D7800A090D4 /* AppDelegate.swift in Sources */,
 				1EC9111621FFB79A0019F069 /* MainListPresenterProtocol.swift in Sources */,
 				1EC9111221FFB43B0019F069 /* ViewProtocol.swift in Sources */,
