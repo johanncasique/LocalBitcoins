@@ -8,22 +8,8 @@
 
 import UIKit
 
-struct MainData: Decodable {
+struct MainDataEntity: Decodable {
     let data: DataDic
-    
-    init(data: DataDic) {
-        self.data = data
-    }
-    
-    enum CodingKeys: String, CodingKey {
-        case data = "data"
-    }
-    
-    init(from decoder: Decoder) throws {
-        let container = try decoder.container(keyedBy: CodingKeys.self)
-        let data: DataDic = try container.decode(DataDic.self, forKey: .data)
-        self.init(data: data)
-    }
 }
 
 struct DataDic: Decodable {
@@ -85,12 +71,23 @@ struct BuyData: Decodable {
     }
 }
 
-
 struct Profile: Decodable {
     var userName: String?
+
+    init(userName: String) {
+        self.userName = userName
+    }
+    
+    enum CodingKeys: String, CodingKey {
+        case userName = "username"
+    }
+    
+    init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        let userName: String = try container.decode(String.self, forKey: .userName)
+        self.init(userName: userName)
+    }
 }
-
-
 
 class ViewController: UIViewController {
     
@@ -115,7 +112,7 @@ class ViewController: UIViewController {
     }
 
     func parse(from data: Data?) {
-        let model = try! JSONDecoder().decode(MainData.self, from: data!)
+        let model = try! JSONDecoder().decode(MainDataEntity.self, from: data!)
         testData = model.data.adList
         tableView.reloadData()
     }

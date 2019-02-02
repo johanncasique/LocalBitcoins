@@ -10,4 +10,6 @@ import Foundation
 
 protocol MainListPresenterProtocol: PresenterProtocol {
     var numberOfListItems: Int { get }
+    
+    func viewDidLoad()
 }

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E64C7442205D4D300EF91A3 /* EnvironmentProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E64C7432205D4D300EF91A3 /* EnvironmentProtocol.swift */; };
+		1E64C7462205D52C00EF91A3 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E64C7452205D52C00EF91A3 /* Environment.swift */; };
+		1E64C7482205ECE900EF91A3 /* EnvironmentConsumer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E64C7472205ECE900EF91A3 /* EnvironmentConsumer.swift */; };
+		1E64C74B2205F34A00EF91A3 /* MainUserInterfaceBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E64C74A2205F34A00EF91A3 /* MainUserInterfaceBuilder.swift */; };
+		1E64C74D2205F38000EF91A3 /* BuilderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E64C74C2205F38000EF91A3 /* BuilderProtocol.swift */; };
+		1E64C7522205F90D00EF91A3 /* MainListBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E64C7512205F90D00EF91A3 /* MainListBuilder.swift */; };
 		1EB64490220103B3002F2188 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB6448F220103B3002F2188 /* Result.swift */; };
 		1EB64495220105CB002F2188 /* VendorsDataManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB64494220105CB002F2188 /* VendorsDataManagerProtocol.swift */; };
 		1EB64499220106E8002F2188 /* WebServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB64498220106E8002F2188 /* WebServiceProtocol.swift */; };
@@ -19,6 +25,10 @@
 		1EC9111421FFB7610019F069 /* MainListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC9111321FFB7610019F069 /* MainListPresenter.swift */; };
 		1EC9111621FFB79A0019F069 /* MainListPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC9111521FFB79A0019F069 /* MainListPresenterProtocol.swift */; };
 		1EC9111821FFB8A30019F069 /* MainListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC9111721FFB8A30019F069 /* MainListViewController.swift */; };
+		1ED243E122049F3E000021CD /* VendorsDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED243E022049F3E000021CD /* VendorsDataManager.swift */; };
+		1ED243E42204A231000021CD /* VendorsServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED243E32204A231000021CD /* VendorsServiceProtocol.swift */; };
+		1ED243E72204C3CD000021CD /* VendorsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED243E62204C3CD000021CD /* VendorsService.swift */; };
+		1EDC8D612206097800047D96 /* MainListTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDC8D602206097800047D96 /* MainListTableViewDataSource.swift */; };
 		1EE2B0FA21FA5D7800A090D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE2B0F921FA5D7800A090D4 /* AppDelegate.swift */; };
 		1EE2B0FC21FA5D7800A090D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE2B0FB21FA5D7800A090D4 /* ViewController.swift */; };
 		1EE2B0FF21FA5D7800A090D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EE2B0FD21FA5D7800A090D4 /* Main.storyboard */; };
@@ -47,6 +57,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E64C7432205D4D300EF91A3 /* EnvironmentProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentProtocol.swift; sourceTree = "<group>"; };
+		1E64C7452205D52C00EF91A3 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		1E64C7472205ECE900EF91A3 /* EnvironmentConsumer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentConsumer.swift; sourceTree = "<group>"; };
+		1E64C74A2205F34A00EF91A3 /* MainUserInterfaceBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainUserInterfaceBuilder.swift; sourceTree = "<group>"; };
+		1E64C74C2205F38000EF91A3 /* BuilderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderProtocol.swift; sourceTree = "<group>"; };
+		1E64C7512205F90D00EF91A3 /* MainListBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListBuilder.swift; sourceTree = "<group>"; };
 		1EB6448F220103B3002F2188 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		1EB64494220105CB002F2188 /* VendorsDataManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendorsDataManagerProtocol.swift; sourceTree = "<group>"; };
 		1EB64498220106E8002F2188 /* WebServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceProtocol.swift; sourceTree = "<group>"; };
@@ -59,6 +75,10 @@
 		1EC9111321FFB7610019F069 /* MainListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListPresenter.swift; sourceTree = "<group>"; };
 		1EC9111521FFB79A0019F069 /* MainListPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListPresenterProtocol.swift; sourceTree = "<group>"; };
 		1EC9111721FFB8A30019F069 /* MainListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListViewController.swift; sourceTree = "<group>"; };
+		1ED243E022049F3E000021CD /* VendorsDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendorsDataManager.swift; sourceTree = "<group>"; };
+		1ED243E32204A231000021CD /* VendorsServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendorsServiceProtocol.swift; sourceTree = "<group>"; };
+		1ED243E62204C3CD000021CD /* VendorsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendorsService.swift; sourceTree = "<group>"; };
+		1EDC8D602206097800047D96 /* MainListTableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListTableViewDataSource.swift; sourceTree = "<group>"; };
 		1EE2B0F621FA5D7800A090D4 /* LocalBitcoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalBitcoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EE2B0F921FA5D7800A090D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EE2B0FB21FA5D7800A090D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +120,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E64C7422205D4B300EF91A3 /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				1E64C7432205D4D300EF91A3 /* EnvironmentProtocol.swift */,
+				1E64C7452205D52C00EF91A3 /* Environment.swift */,
+				1E64C7472205ECE900EF91A3 /* EnvironmentConsumer.swift */,
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
+		1E64C74E2205F88600EF91A3 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				1E64C74F2205F88D00EF91A3 /* MainUserInterface */,
+				1EE2B12A21FA5DF500A090D4 /* MainList */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		1E64C74F2205F88D00EF91A3 /* MainUserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				1E64C7502205F8B000EF91A3 /* Builder */,
+			);
+			path = MainUserInterface;
+			sourceTree = "<group>";
+		};
+		1E64C7502205F8B000EF91A3 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				1E64C74A2205F34A00EF91A3 /* MainUserInterfaceBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
 		1EB6448C2201037F002F2188 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +191,7 @@
 		1EB644922201054C002F2188 /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
+				1ED243E22204A205000021CD /* Service */,
 				1EB6449322010591002F2188 /* DataManager */,
 			);
 			path = Vendors;
@@ -145,6 +201,7 @@
 			isa = PBXGroup;
 			children = (
 				1EB64494220105CB002F2188 /* VendorsDataManagerProtocol.swift */,
+				1ED243E022049F3E000021CD /* VendorsDataManager.swift */,
 			);
 			path = DataManager;
 			sourceTree = "<group>";
@@ -169,6 +226,7 @@
 		1EC9110421FFB2730019F069 /* Builder */ = {
 			isa = PBXGroup;
 			children = (
+				1E64C7512205F90D00EF91A3 /* MainListBuilder.swift */,
 			);
 			path = Builder;
 			sourceTree = "<group>";
@@ -201,7 +259,9 @@
 		1EC9110921FFB2D40019F069 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1EE2B0FD21FA5D7800A090D4 /* Main.storyboard */,
 				1EC9111721FFB8A30019F069 /* MainListViewController.swift */,
+				1EDC8D602206097800047D96 /* MainListTableViewDataSource.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -227,8 +287,18 @@
 				1EC9110D21FFB3E00019F069 /* ViperViewController.swift */,
 				1EC9110F21FFB4220019F069 /* PresenterProtocol.swift */,
 				1EC9111121FFB43B0019F069 /* ViewProtocol.swift */,
+				1E64C74C2205F38000EF91A3 /* BuilderProtocol.swift */,
 			);
 			path = Viper;
+			sourceTree = "<group>";
+		};
+		1ED243E22204A205000021CD /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				1ED243E32204A231000021CD /* VendorsServiceProtocol.swift */,
+				1ED243E62204C3CD000021CD /* VendorsService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 		1EE2B0ED21FA5D7700A090D4 = {
@@ -254,15 +324,16 @@
 		1EE2B0F821FA5D7800A090D4 /* LocalBitcoin */ = {
 			isa = PBXGroup;
 			children = (
-				1EB6449122010462002F2188 /* Domains */,
-				1EB6448C2201037F002F2188 /* Shared */,
-				1EC9110B21FFB3BD0019F069 /* Architecture */,
+				1E64C7422205D4B300EF91A3 /* Environment */,
+				1EE2B10821FA5D7900A090D4 /* Info.plist */,
 				1EE2B0F921FA5D7800A090D4 /* AppDelegate.swift */,
 				1EE2B10321FA5D7900A090D4 /* Assets.xcassets */,
+				1EC9110B21FFB3BD0019F069 /* Architecture */,
 				1EE2B12B21FA5E0800A090D4 /* CoreData */,
-				1EE2B10821FA5D7900A090D4 /* Info.plist */,
+				1EB6449122010462002F2188 /* Domains */,
 				1EE2B10521FA5D7900A090D4 /* LaunchScreen.storyboard */,
-				1EE2B12A21FA5DF500A090D4 /* MainList */,
+				1E64C74E2205F88600EF91A3 /* Modules */,
+				1EB6448C2201037F002F2188 /* Shared */,
 			);
 			path = LocalBitcoin;
 			sourceTree = "<group>";
@@ -294,7 +365,6 @@
 				1EC9110621FFB2A80019F069 /* Interactor */,
 				1EC9110521FFB2810019F069 /* Router */,
 				1EC9110421FFB2730019F069 /* Builder */,
-				1EE2B0FD21FA5D7800A090D4 /* Main.storyboard */,
 				1EE2B0FB21FA5D7800A090D4 /* ViewController.swift */,
 			);
 			path = MainList;
@@ -439,6 +509,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E64C7442205D4D300EF91A3 /* EnvironmentProtocol.swift in Sources */,
 				1EB6449F22010BAF002F2188 /* MainListInteractor.swift in Sources */,
 				1EB6449B220107A6002F2188 /* WebService.swift in Sources */,
 				1EB64499220106E8002F2188 /* WebServiceProtocol.swift in Sources */,
@@ -446,10 +517,19 @@
 				1EE2B0FC21FA5D7800A090D4 /* ViewController.swift in Sources */,
 				1EC9110E21FFB3E00019F069 /* ViperViewController.swift in Sources */,
 				1EE2B10221FA5D7800A090D4 /* LocalBitcoin.xcdatamodeld in Sources */,
+				1E64C7522205F90D00EF91A3 /* MainListBuilder.swift in Sources */,
+				1ED243E42204A231000021CD /* VendorsServiceProtocol.swift in Sources */,
+				1E64C7462205D52C00EF91A3 /* Environment.swift in Sources */,
 				1EB6449D22010AA0002F2188 /* MainListInteractorProtocol.swift in Sources */,
+				1EDC8D612206097800047D96 /* MainListTableViewDataSource.swift in Sources */,
 				1EC9111421FFB7610019F069 /* MainListPresenter.swift in Sources */,
+				1ED243E122049F3E000021CD /* VendorsDataManager.swift in Sources */,
 				1EB64495220105CB002F2188 /* VendorsDataManagerProtocol.swift in Sources */,
+				1E64C74D2205F38000EF91A3 /* BuilderProtocol.swift in Sources */,
+				1E64C74B2205F34A00EF91A3 /* MainUserInterfaceBuilder.swift in Sources */,
 				1EB64490220103B3002F2188 /* Result.swift in Sources */,
+				1ED243E72204C3CD000021CD /* VendorsService.swift in Sources */,
+				1E64C7482205ECE900EF91A3 /* EnvironmentConsumer.swift in Sources */,
 				1EE2B0FA21FA5D7800A090D4 /* AppDelegate.swift in Sources */,
 				1EC9111621FFB79A0019F069 /* MainListPresenterProtocol.swift in Sources */,
 				1EC9111221FFB43B0019F069 /* ViewProtocol.swift in Sources */,

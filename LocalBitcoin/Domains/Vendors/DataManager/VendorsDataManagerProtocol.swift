@@ -12,8 +12,8 @@ enum VendorsDataManagerError: Error {
     case loadError
 }
 
-//typealias VendorsDataManagerTypeResult = Result<[
+typealias VendorsDataManagerTypeResult = Result<MainDataEntity?, VendorsDataManagerError>
 
 protocol VendorsDataManagerProtocol {
-    
+    func loadAds(completion: @escaping (VendorsDataManagerTypeResult) -> Void)
 }
