@@ -14,8 +14,11 @@ class MainListBuilder: EnvironmentConsumer, BuilderProtocol {
         let interactor = MainListInteractor(dataManager: environment.vendorsDataManager)
         let presenter = MainLisPresenter(interactor: interactor)
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let dataSource = MainListTableViewDataSource(presenter: presenter)
         let view = storyboard.instantiateInitialViewController() as! MainListViewController
         view.presenter = presenter
+        view.dataSource = dataSource
+        presenter.delegate = view
         
         return view
     }

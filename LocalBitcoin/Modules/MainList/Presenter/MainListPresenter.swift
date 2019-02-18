@@ -11,22 +11,37 @@ import Foundation
 class MainLisPresenter {
     
     let interactor: MainListInteractorProtocol
+    weak var delegate: MainListPresenterDelegate?
+    
+    fileprivate var adListArray:  [AdList]?
     
     init(interactor: MainListInteractorProtocol) {
         self.interactor = interactor
     }
     
+    private func loadAllAds() {
+        interactor.loadAllAds { [weak self] result in
+            switch result {
+            case .sucess(let adsData):
+                self?.adListArray = adsData
+                self?.delegate?.didRequestListItem()
+            case .failure(let error):
+                print(error)
+            }
+        }
+    }
+    
 }
 
 extension MainLisPresenter: MainListPresenterProtocol {
+    
     var numberOfListItems: Int {
-        return 0
+        guard let modelArray = adListArray else { return 0 }
+        return modelArray.count
     }
     
     func viewDidLoad() {
-        interactor.loadAllAds { result in
-            print(result)
-        }
+        loadAllAds()
     }
     
     func viewWillBecomeActive() {
@@ -36,4 +51,15 @@ extension MainLisPresenter: MainListPresenterProtocol {
     func viewDidBecomeInactive() {
         
     }
+    
+    func model(at index: IndexPath) -> BuyData? {
+        if let modelArray = adListArray, !modelArray.isEmpty {
+            let model = modelArray[index.row]
+            return BuyData(profile: model.buyData.profile, tempPrice: model.buyData.tempPrice)
+        }
+        
+        return nil
+    }
 }
+
+

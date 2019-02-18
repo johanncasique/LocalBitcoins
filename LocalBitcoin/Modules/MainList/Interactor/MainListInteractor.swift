@@ -21,6 +21,7 @@ class MainListInteractor: MainListInteractorProtocol {
         dataManager.loadAds { (result) in
             switch result {
             case .sucess(let resultData):
+                completion(.sucess(resultData?.data.adList ?? []))
                 print(resultData ?? "")
             case .failure(let error):
                 print(error)

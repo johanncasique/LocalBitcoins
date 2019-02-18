@@ -37,6 +37,8 @@
 		1EE2B10721FA5D7900A090D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EE2B10521FA5D7900A090D4 /* LaunchScreen.storyboard */; };
 		1EE2B11221FA5D7900A090D4 /* LocalBitcoinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE2B11121FA5D7900A090D4 /* LocalBitcoinTests.swift */; };
 		1EE2B11D21FA5D7900A090D4 /* LocalBitcoinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE2B11C21FA5D7900A090D4 /* LocalBitcoinUITests.swift */; };
+		1EE3C4C42208ED6B002C1E2F /* MainListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE3C4C32208ED6B002C1E2F /* MainListModel.swift */; };
+		1EE3C4C72208F1C5002C1E2F /* MainListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE3C4C62208F1C5002C1E2F /* MainListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +95,8 @@
 		1EE2B11821FA5D7900A090D4 /* LocalBitcoinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalBitcoinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EE2B11C21FA5D7900A090D4 /* LocalBitcoinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalBitcoinUITests.swift; sourceTree = "<group>"; };
 		1EE2B11E21FA5D7900A090D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EE3C4C32208ED6B002C1E2F /* MainListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListModel.swift; sourceTree = "<group>"; };
+		1EE3C4C62208F1C5002C1E2F /* MainListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -269,6 +273,7 @@
 		1EC9110A21FFB30C0019F069 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1EE3C4C32208ED6B002C1E2F /* MainListModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -359,6 +364,7 @@
 		1EE2B12A21FA5DF500A090D4 /* MainList */ = {
 			isa = PBXGroup;
 			children = (
+				1EE3C4C52208F1A2002C1E2F /* ViewModel */,
 				1EC9110A21FFB30C0019F069 /* Model */,
 				1EC9110921FFB2D40019F069 /* View */,
 				1EC9110721FFB2B40019F069 /* Presenter */,
@@ -376,6 +382,14 @@
 				1EE2B10021FA5D7800A090D4 /* LocalBitcoin.xcdatamodeld */,
 			);
 			path = CoreData;
+			sourceTree = "<group>";
+		};
+		1EE3C4C52208F1A2002C1E2F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1EE3C4C62208F1C5002C1E2F /* MainListViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -515,6 +529,7 @@
 				1EB64499220106E8002F2188 /* WebServiceProtocol.swift in Sources */,
 				1EC9111821FFB8A30019F069 /* MainListViewController.swift in Sources */,
 				1EE2B0FC21FA5D7800A090D4 /* ViewController.swift in Sources */,
+				1EE3C4C42208ED6B002C1E2F /* MainListModel.swift in Sources */,
 				1EC9110E21FFB3E00019F069 /* ViperViewController.swift in Sources */,
 				1EE2B10221FA5D7800A090D4 /* LocalBitcoin.xcdatamodeld in Sources */,
 				1E64C7522205F90D00EF91A3 /* MainListBuilder.swift in Sources */,
@@ -530,6 +545,7 @@
 				1EB64490220103B3002F2188 /* Result.swift in Sources */,
 				1ED243E72204C3CD000021CD /* VendorsService.swift in Sources */,
 				1E64C7482205ECE900EF91A3 /* EnvironmentConsumer.swift in Sources */,
+				1EE3C4C72208F1C5002C1E2F /* MainListViewModel.swift in Sources */,
 				1EE2B0FA21FA5D7800A090D4 /* AppDelegate.swift in Sources */,
 				1EC9111621FFB79A0019F069 /* MainListPresenterProtocol.swift in Sources */,
 				1EC9111221FFB43B0019F069 /* ViewProtocol.swift in Sources */,

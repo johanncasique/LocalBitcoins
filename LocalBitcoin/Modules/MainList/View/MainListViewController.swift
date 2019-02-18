@@ -11,11 +11,21 @@ import UIKit
 
 class MainListViewController: UIViewController {
     
+    @IBOutlet weak var tableView: UITableView!
+    
     var presenter: MainListPresenterProtocol?
+    var dataSource: MainListTableViewDataSource?
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableView.dataSource = dataSource
         presenter?.viewDidLoad()
     }
     
+}
+
+extension MainListViewController: MainListPresenterDelegate {
+    func didRequestListItem() {
+        tableView.reloadData()
+    }
 }
