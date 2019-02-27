@@ -52,10 +52,11 @@ extension MainLisPresenter: MainListPresenterProtocol {
         
     }
     
-    func model(at index: IndexPath) -> BuyData? {
+    func model(at index: IndexPath) -> MainListViewModel? {
         if let modelArray = adListArray, !modelArray.isEmpty {
-            let model = modelArray[index.row]
-            return BuyData(profile: model.buyData.profile, tempPrice: model.buyData.tempPrice)
+            let model = modelArray[index.row].buyData
+            let viewModel = MainListViewModel(model)
+            return viewModel
         }
         
         return nil

@@ -22,12 +22,11 @@ class MainListTableViewDataSource: NSObject, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: cellID) else { return UITableViewCell() }
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: cellID) as? MainListTableViewCell else { return UITableViewCell() }
         
         guard let model = presenter.model(at: indexPath) else { return cell }
-        cell.textLabel?.text = model.profile.userName
-        cell.detailTextLabel?.text = model.tempPrice
-        
+        cell.config(with: model)
+    
         return cell
     }
     

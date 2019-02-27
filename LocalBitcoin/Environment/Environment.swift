@@ -10,7 +10,7 @@ import Foundation
 
 class Environment: EnvironmentProtocol {
     
-    let loadUrlString = "https://localbitcoins.com/buy-bitcoins-online/ES/spain/.json?page=1"
+    let loadUrlString = "https://localbitcoins.com/buy-bitcoins-online/VE/venezuela/.json?page=1"
     let webService = WebService()
     
     lazy var vendorsDataManager: VendorsDataManagerProtocol = {

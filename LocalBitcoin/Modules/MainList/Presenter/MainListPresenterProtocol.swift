@@ -17,6 +17,6 @@ protocol MainListPresenterProtocol: PresenterProtocol {
     var numberOfListItems: Int { get }
     
     func viewDidLoad()
-    func model(at index: IndexPath) -> BuyData?
+    func model(at index: IndexPath) -> MainListViewModel?
     
 }
