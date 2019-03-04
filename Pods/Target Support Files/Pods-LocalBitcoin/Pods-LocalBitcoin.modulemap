@@ -1,0 +1,6 @@
+framework module Pods_LocalBitcoin {
+  umbrella header "Pods-LocalBitcoin-umbrella.h"
+
+  export *
+  module * { export * }
+}

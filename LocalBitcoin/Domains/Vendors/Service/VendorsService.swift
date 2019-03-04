@@ -34,12 +34,14 @@ class VendorsService: VendorsServiceProtocol {
                 }
             case .sucess(let json):
                 
-                guard let mainData = try? JSONDecoder().decode(MainDataEntity.self, from: json) else {
-                    completion(.failure(.invalidVendorData))
-                    return
-                }
                 
-                completion(.sucess(mainData))
+                do {
+                    let mainData = try JSONDecoder().decode(MainDataEntity.self, from: json)
+                    completion(.sucess(mainData))
+                } catch let error {
+                    print(error)
+                    completion(.failure(.invalidVendorData))
+                }
             }
         }
     }

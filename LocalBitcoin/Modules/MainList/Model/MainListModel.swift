@@ -77,12 +77,12 @@ struct BuyData: Decodable {
     
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
-        let profile: Profile = try container.decode(Profile.self, forKey: .profile)
-        let price: String = try container.decode(String.self, forKey: .tempPrice)
-        let minLimits: String = try container.decode(String.self, forKey: .minLimits)
-        let maxLimits: String = try container.decode(String.self, forKey: .maxLimits)
-        let paymentMethod: String = try container.decode(String.self, forKey: .paymentMethod)
-        let bankName: String = try container.decode(String.self, forKey: .bankName)
+        let profile: Profile = try container.decodeIfPresent(Profile.self, forKey: .profile) ?? Profile(userName: "")
+        let price: String = try container.decodeIfPresent(String.self, forKey: .tempPrice) ?? ""
+        let minLimits: String = try container.decodeIfPresent(String.self, forKey: .minLimits) ?? ""
+        let maxLimits: String = try container.decodeIfPresent(String.self, forKey: .maxLimits) ?? ""
+        let paymentMethod: String = try container.decodeIfPresent(String.self, forKey: .paymentMethod) ?? ""
+        let bankName: String = try container.decodeIfPresent(String.self, forKey: .bankName) ?? ""
         self.init(profile: profile, tempPrice: price, minLimits: minLimits, maxLimits: maxLimits, paymentMethod: paymentMethod, bankName: bankName)
     }
 }
