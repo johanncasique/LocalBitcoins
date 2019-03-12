@@ -43,6 +43,10 @@
 		1EE3C4C72208F1C5002C1E2F /* MainListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE3C4C62208F1C5002C1E2F /* MainListViewModel.swift */; };
 		45E1CDEA7997FBD5794A2D12 /* Pods_LocalBitcoin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E05EE29792CAF64767F8F4 /* Pods_LocalBitcoin.framework */; };
 		4D6F572FAAC2B2F36AD18A23 /* Pods_LocalBitcoinTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47A6EB65A09DBEEBB0BADAD4 /* Pods_LocalBitcoinTests.framework */; };
+		A8ADE78C2236B9B700F942B7 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8ADE78B2236B9B700F942B7 /* DateExtension.swift */; };
+		A8ADE78F2236C0E400F942B7 /* CryptoAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8ADE78E2236C0E400F942B7 /* CryptoAlgorithm.swift */; };
+		A8ADE7912236C14600F942B7 /* DataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8ADE7902236C14600F942B7 /* DataExtension.swift */; };
+		A8ADE7932236C28600F942B7 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8ADE7922236C28600F942B7 /* StringExtension.swift */; };
 		C028DA6F90AD47B40AC097A0 /* Pods_LocalBitcoinUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F41914B4BE927E6624334678 /* Pods_LocalBitcoinUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -109,6 +113,10 @@
 		47A6EB65A09DBEEBB0BADAD4 /* Pods_LocalBitcoinTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocalBitcoinTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6891610F5DBFF663BB4FCCE9 /* Pods-LocalBitcoinUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalBitcoinUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LocalBitcoinUITests/Pods-LocalBitcoinUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		789F1FD5514971FE77E48228 /* Pods-LocalBitcoin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalBitcoin.release.xcconfig"; path = "Pods/Target Support Files/Pods-LocalBitcoin/Pods-LocalBitcoin.release.xcconfig"; sourceTree = "<group>"; };
+		A8ADE78B2236B9B700F942B7 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		A8ADE78E2236C0E400F942B7 /* CryptoAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoAlgorithm.swift; sourceTree = "<group>"; };
+		A8ADE7902236C14600F942B7 /* DataExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataExtension.swift; sourceTree = "<group>"; };
+		A8ADE7922236C28600F942B7 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		C12F70F427603806DE628A59 /* Pods-LocalBitcoinUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalBitcoinUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LocalBitcoinUITests/Pods-LocalBitcoinUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D7E05EE29792CAF64767F8F4 /* Pods_LocalBitcoin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocalBitcoin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F41914B4BE927E6624334678 /* Pods_LocalBitcoinUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocalBitcoinUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -190,6 +198,8 @@
 		1EB6448D2201038F002F2188 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				A8ADE78D2236BA2100F942B7 /* HMAC */,
+				A8ADE78A2236ADDC00F942B7 /* Extensions */,
 				1EB6448E220103A5002F2188 /* Result */,
 			);
 			path = Utilities;
@@ -425,6 +435,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A8ADE78A2236ADDC00F942B7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A8ADE78B2236B9B700F942B7 /* DateExtension.swift */,
+				A8ADE7902236C14600F942B7 /* DataExtension.swift */,
+				A8ADE7922236C28600F942B7 /* StringExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A8ADE78D2236BA2100F942B7 /* HMAC */ = {
+			isa = PBXGroup;
+			children = (
+				A8ADE78E2236C0E400F942B7 /* CryptoAlgorithm.swift */,
+			);
+			path = HMAC;
+			sourceTree = "<group>";
+		};
 		A9A122E54BD0B032088CBF4C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -653,9 +681,11 @@
 				1EB6449F22010BAF002F2188 /* MainListInteractor.swift in Sources */,
 				1E6FB79D2225EA8C008E8A7E /* MainListTableViewCell.swift in Sources */,
 				1EB6449B220107A6002F2188 /* WebService.swift in Sources */,
+				A8ADE7932236C28600F942B7 /* StringExtension.swift in Sources */,
 				1EB64499220106E8002F2188 /* WebServiceProtocol.swift in Sources */,
 				1EC9111821FFB8A30019F069 /* MainListViewController.swift in Sources */,
 				1EE2B0FC21FA5D7800A090D4 /* ViewController.swift in Sources */,
+				A8ADE7912236C14600F942B7 /* DataExtension.swift in Sources */,
 				1EE3C4C42208ED6B002C1E2F /* MainListModel.swift in Sources */,
 				1EC9110E21FFB3E00019F069 /* ViperViewController.swift in Sources */,
 				1EE2B10221FA5D7800A090D4 /* LocalBitcoin.xcdatamodeld in Sources */,
@@ -664,6 +694,7 @@
 				1E64C7462205D52C00EF91A3 /* Environment.swift in Sources */,
 				1EB6449D22010AA0002F2188 /* MainListInteractorProtocol.swift in Sources */,
 				1EDC8D612206097800047D96 /* MainListTableViewDataSource.swift in Sources */,
+				A8ADE78C2236B9B700F942B7 /* DateExtension.swift in Sources */,
 				1EC9111421FFB7610019F069 /* MainListPresenter.swift in Sources */,
 				1ED243E122049F3E000021CD /* VendorsDataManager.swift in Sources */,
 				1EB64495220105CB002F2188 /* VendorsDataManagerProtocol.swift in Sources */,
@@ -671,6 +702,7 @@
 				1E64C74B2205F34A00EF91A3 /* MainUserInterfaceBuilder.swift in Sources */,
 				1EB64490220103B3002F2188 /* Result.swift in Sources */,
 				1ED243E72204C3CD000021CD /* VendorsService.swift in Sources */,
+				A8ADE78F2236C0E400F942B7 /* CryptoAlgorithm.swift in Sources */,
 				1E64C7482205ECE900EF91A3 /* EnvironmentConsumer.swift in Sources */,
 				1EE3C4C72208F1C5002C1E2F /* MainListViewModel.swift in Sources */,
 				1EE2B0FA21FA5D7800A090D4 /* AppDelegate.swift in Sources */,
@@ -854,6 +886,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LocalBitcoin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -872,6 +905,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LocalBitcoin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
