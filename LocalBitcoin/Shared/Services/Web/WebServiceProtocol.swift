@@ -15,8 +15,9 @@ enum WebServiceError: Error {
     case jsonParseError
 }
 
+typealias EndpointString = String
 typealias WebServiceTypeDataResult = Result<Data, WebServiceError>
 
 protocol WebServiceProtocol {
-    func getData(urlString: String, completion: @escaping (WebServiceTypeDataResult) -> Void)
+    func getData(urlService: EndpointString, completion: @escaping (WebServiceTypeDataResult) -> Void)
 }

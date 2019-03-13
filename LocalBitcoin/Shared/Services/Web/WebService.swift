@@ -12,18 +12,18 @@ import Foundation
 
 class WebService: WebServiceProtocol {
     
-    func getData(urlString: String, completion: @escaping (WebServiceTypeDataResult) -> Void) {
-        guard let url = URL(string: urlString) else {
-            completion(.failure(.invalidUrl))
-            return
-        }
+    func getData(urlService: EndpointString, completion: @escaping (WebServiceTypeDataResult) -> Void) {
+//        guard URL(string: "\(urlService.baseURL)\(urlService.endpoint)") != nil else {
+//            completion(.failure(.invalidUrl))
+//            return
+//        }
         
         let mySelf = "/api/myself/"
         let contactEndpoint = "/api/account_info/ELEXGARAY/"
         let recentMessage = "/api/recent_messages/"
         let endpoint = contactEndpoint
         
-        let request = buildRequest(with: endpoint)
+        let request = buildRequest(with: urlService)
         URLSession.shared.dataTask(with: request) { (data, responer, error) in
             print(data)
             let stringData = String(data: data!, encoding: .utf8)
@@ -38,8 +38,7 @@ class WebService: WebServiceProtocol {
         //        '5e38f8f943ebd582447fb61a3e828bf7'
         
         DispatchQueue.global(qos: .background).async {
-            let request =
-            URLSession.shared.dataTask(with: url) { (data, response, error) in
+            URLSession.shared.dataTask(with: request) { (data, response, error) in
                 
                 DispatchQueue.main.async {
                     guard error == nil else {
@@ -58,17 +57,17 @@ class WebService: WebServiceProtocol {
     }
     
     
-    private func buildRequest(with endpoint: String) -> URLRequest {
+    private func buildRequest(with endpointString: EndpointString) -> URLRequest {
         
         let baseUrl = "https://localbitcoins.com"
         let nonce = Date().timeIntervalSince1970Millis
         let hmacAuthKey = "5e38f8f943ebd582447fb61a3e828bf7"
         let secret = "ab1482d40ae144ac129d05049757ff6d48171a1159d4d2c4c80155012d3b500b"
         
-        let message = "\(nonce)\(hmacAuthKey)\(endpoint)"
+        let message = "\(nonce)\(hmacAuthKey)\(endpointString)"
         let signature = message.hmac(algorithm: .SHA256, key: secret)
         
-        let url = URL(string: endpoint)!
+        let url = URL(string: "\(baseUrl)\(endpointString)")!
         
         var request = URLRequest(url: url)
         request.setValue(hmacAuthKey, forHTTPHeaderField: "Apiauth-key")

@@ -19,7 +19,7 @@ class VendorsService: VendorsServiceProtocol {
     
     func loadMain(completion: @escaping (VendorsServiceResult) -> Void) {
         
-        webService.getData(urlString: loadURLString) { result in
+        webService.getData(urlService: loadURLString) { result in
             switch result {
             case .failure(let error):
                 switch error {
