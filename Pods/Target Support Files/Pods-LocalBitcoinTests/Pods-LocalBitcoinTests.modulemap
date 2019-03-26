@@ -1,0 +1,6 @@
+framework module Pods_LocalBitcoinTests {
+  umbrella header "Pods-LocalBitcoinTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
