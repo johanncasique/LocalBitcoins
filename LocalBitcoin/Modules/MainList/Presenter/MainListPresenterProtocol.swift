@@ -8,9 +8,15 @@
 
 import Foundation
 
+enum LoadingPosition {
+    case center
+    case bottom
+}
+
 protocol MainListPresenterDelegate: class {
-    
     func didRequestListItem()
+    func showLoading(at position: LoadingPosition)
+    func hideLoading()
 }
 
 protocol MainListPresenterProtocol: PresenterProtocol {
