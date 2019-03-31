@@ -8,6 +8,25 @@
 
 import Foundation
 
+struct MainAdsListResult {
+    let ads: [AdList]?
+    let previousPaginatin: String?
+    let nextPagination: String?
+    
+    var adsArray: [AdList] {
+        return self.ads ?? []
+    }
+    
+    var hasMorePages: Bool {
+        return nextPage != nil
+    }
+    
+    var nextPage: Int? {
+        guard let pagination = nextPagination?.last else { return nil }
+        return Int("\(pagination)")
+    }
+}
+
 class MainListInteractor: MainListInteractorProtocol {
     
     let dataManager: VendorsDataManagerProtocol
@@ -16,12 +35,16 @@ class MainListInteractor: MainListInteractorProtocol {
         self.dataManager = dataManager
     }
     
-    func loadAllAds(completion: @escaping (MainListInteractorTypeResult) -> Void) {
+    func loadAllAds(page: Int, completion: @escaping (MainListInteractorTypeResult) -> Void) {
         
-        dataManager.loadAds { (result) in
+        dataManager.loadAds(page: page) { (result) in
             switch result {
             case .sucess(let resultData):
-                completion(.sucess(resultData?.data.adList ?? []))
+                let result = MainAdsListResult(ads: resultData?.data.adList,
+                                               previousPaginatin: resultData?.pagination.prev,
+                                               nextPagination: resultData?.pagination.next)
+                
+                completion(.sucess(result))
                 print(resultData ?? "")
             case .failure(let error):
                 print(error)

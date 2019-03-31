@@ -21,8 +21,11 @@ protocol MainListPresenterDelegate: class {
 
 protocol MainListPresenterProtocol: PresenterProtocol {
     var numberOfListItems: Int { get }
+    var state: State { get }
     
     func viewDidLoad()
     func model(at index: IndexPath) -> MainListViewModel?
+    func showLoadingView()
+    func pagination(_ page: Int)
     
 }

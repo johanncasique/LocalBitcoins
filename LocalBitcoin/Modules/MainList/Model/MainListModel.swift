@@ -10,6 +10,7 @@ import Foundation
 
 struct MainDataEntity: Decodable {
     let data: DataDic
+    let pagination: Pagination
 }
 
 struct DataDic: Decodable {
@@ -48,6 +49,11 @@ struct AdList: Decodable {
         self.init(buyData: buyData)
     }
     
+}
+
+struct Pagination: Decodable {
+    let prev: String?
+    let next: String?
 }
 
 struct BuyData: Decodable {

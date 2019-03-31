@@ -10,14 +10,12 @@ import Foundation
 
 class Environment: EnvironmentProtocol {
     
-    
     let webService = WebService()
     
     lazy var vendorsDataManager: VendorsDataManagerProtocol = {
-        let loadUrlString = "/buy-bitcoins-online/VE/venezuela/.json?page=1"
+        let loadUrlString = "/buy-bitcoins-online/VE/venezuela/.json"
         let vendorsService = VendorsService(webService: webService, loadURLString: loadUrlString)
         let vendorsDataManager = VendorsDataManager(service: vendorsService)
         return vendorsDataManager
     }()
-    
 }

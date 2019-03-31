@@ -17,8 +17,8 @@ class VendorsDataManager: VendorsDataManagerProtocol {
         self.service = service
     }
     
-    func loadAds(completion: @escaping (VendorsDataManagerTypeResult) -> Void) {
-        service.loadMain { result in
+    func loadAds(page: Int, completion: @escaping (VendorsDataManagerTypeResult) -> Void) {
+        service.loadMain(page: page) { result in
             switch result {
                 
             case .sucess(let resultData):

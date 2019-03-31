@@ -17,9 +17,11 @@ class VendorsService: VendorsServiceProtocol {
         self.loadURLString = loadURLString
     }
     
-    func loadMain(completion: @escaping (VendorsServiceResult) -> Void) {
+    func loadMain(page: Int, completion: @escaping (VendorsServiceResult) -> Void) {
         
-        webService.getData(urlService: loadURLString) { result in
+        let urlString = "\(loadURLString)?page=\(page)"
+        
+        webService.getData(urlService: urlString) { result in
             switch result {
             case .failure(let error):
                 switch error {

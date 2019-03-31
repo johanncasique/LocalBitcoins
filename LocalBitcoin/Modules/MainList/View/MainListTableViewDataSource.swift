@@ -26,6 +26,11 @@ class MainListTableViewDataSource: NSObject, UITableViewDataSource {
         
         guard let model = presenter.model(at: indexPath) else { return cell }
         cell.config(with: model)
+        
+        if case .paging(_, let nextPage) = presenter.state,
+            indexPath.row == presenter.state.currentAds.count - 1 {
+                self.presenter.pagination(nextPage)
+        }
     
         return cell
     }

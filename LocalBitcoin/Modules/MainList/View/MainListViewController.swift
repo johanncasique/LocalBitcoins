@@ -35,12 +35,16 @@ extension MainListViewController: MainListPresenterDelegate {
         switch position {
         case .center:
             activity.frame = CGRect(x: view.center.x, y: view.center.y, width: 30, height: 30)
+            view.addSubview(activity)
         case .bottom:
-            activity.frame = CGRect(x: view.center.x, y: view.center.y, width: 30, height: 30)
+            let loadingFooterView = UIView()
+            loadingFooterView.frame = CGRect(x: 0, y: 0, width: view.frame.width, height: 40)
+            activity.frame = CGRect(x: loadingFooterView.center.x, y: loadingFooterView.center.y, width: 30, height: 30)
+            loadingFooterView.addSubview(activity)
+            tableView.tableFooterView = loadingFooterView
         }
         activity.style = .gray
         activity.startAnimating()
-        view.addSubview(activity)
     }
     
     func hideLoading() {
