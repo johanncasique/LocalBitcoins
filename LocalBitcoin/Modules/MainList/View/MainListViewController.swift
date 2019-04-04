@@ -15,6 +15,7 @@ class MainListViewController: UIViewController {
     
     var presenter: MainListPresenterProtocol?
     var dataSource: MainListTableViewDataSource?
+    let activity = UIActivityIndicatorView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,5 +29,26 @@ class MainListViewController: UIViewController {
 extension MainListViewController: MainListPresenterDelegate {
     func didRequestListItem() {
         tableView.reloadData()
+    }
+    
+    func showLoading(at position: LoadingPosition) {
+        switch position {
+        case .center:
+            activity.frame = CGRect(x: view.center.x, y: view.center.y, width: 30, height: 30)
+            view.addSubview(activity)
+        case .bottom:
+            let loadingFooterView = UIView()
+            loadingFooterView.frame = CGRect(x: 0, y: 0, width: view.frame.width, height: 40)
+            activity.frame = CGRect(x: loadingFooterView.center.x, y: loadingFooterView.center.y, width: 30, height: 30)
+            loadingFooterView.addSubview(activity)
+            tableView.tableFooterView = loadingFooterView
+        }
+        activity.style = .gray
+        activity.startAnimating()
+    }
+    
+    func hideLoading() {
+        activity.stopAnimating()
+        activity.hidesWhenStopped = true
     }
 }

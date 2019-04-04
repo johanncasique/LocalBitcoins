@@ -13,8 +13,8 @@ enum MainListInteractorError: Error {
     case loadImageError
     case networkError
 }
-typealias MainListInteractorTypeResult = Result<[AdList], MainListInteractorError>
+typealias MainListInteractorTypeResult = Result<MainAdsListResult, MainListInteractorError>
 
 protocol MainListInteractorProtocol {
-    func loadAllAds(completion: @escaping (MainListInteractorTypeResult) -> Void)
+    func loadAllAds(page: Int, completion: @escaping (MainListInteractorTypeResult) -> Void)
 }
