@@ -18,19 +18,19 @@ class WebService: WebServiceProtocol {
 //            return
 //        }
         
-        let mySelf = "/api/myself/"
-        let contactEndpoint = "/api/account_info/ELEXGARAY/"
-        let recentMessage = "/api/recent_messages/"
-        let endpoint = contactEndpoint
-        
-        let requestT = buildRequest(with: contactEndpoint)
-        URLSession.shared.dataTask(with: requestT) { (data, responer, error) in
-            print(data)
-            let stringData = String(data: data!, encoding: .utf8)
-            print(stringData)
-            print(responer)
-            print(error)
-            }.resume()
+//        let mySelf = "/api/myself/"
+//        let contactEndpoint = "/api/account_info/ELEXGARAY/"
+//        let recentMessage = "/api/recent_messages/"
+//        let endpoint = contactEndpoint
+//        
+//        let requestT = buildRequest(with: contactEndpoint)
+//        URLSession.shared.dataTask(with: requestT) { (data, responer, error) in
+//            print(data)
+//            let stringData = String(data: data!, encoding: .utf8)
+//            print(stringData)
+//            print(responer)
+//            print(error)
+//            }.resume()
         
         
         //        '1551522241766'

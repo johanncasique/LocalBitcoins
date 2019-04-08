@@ -18,4 +18,11 @@ class Environment: EnvironmentProtocol {
         let vendorsDataManager = VendorsDataManager(service: vendorsService)
         return vendorsDataManager
     }()
+    
+    lazy var countriesDataManager: CountriesDataManagerProtocol =  {
+        let loadURLString = "/api/countrycodes/"
+        let countryService = CountriesService(webService: webService, loadURLString: loadURLString)
+        let countriesDataManager = CountriesDataManager(countryService: countryService)
+        return countriesDataManager
+    }()
 }

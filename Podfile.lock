@@ -1,16 +1,16 @@
 PODS:
-  - CryptoSwift (0.13.0)
+  - FlagKit (2.2)
 
 DEPENDENCIES:
-  - CryptoSwift
+  - FlagKit
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - CryptoSwift
+    - FlagKit
 
 SPEC CHECKSUMS:
-  CryptoSwift: 16e78bebf567bad1c87b2d58f6547f25b74c31aa
+  FlagKit: eca7dc89064b0c986302ba9acefad1bf80a435b1
 
-PODFILE CHECKSUM: 28218c85ab0ea9f83776252789a85194a07c42d3
+PODFILE CHECKSUM: b5f1b10e40637a7dfb8f1d5cfe0cbd44b9d02c5e
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.1

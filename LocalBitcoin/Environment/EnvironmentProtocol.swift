@@ -10,4 +10,5 @@ import Foundation
 
 protocol EnvironmentProtocol {
     var vendorsDataManager: VendorsDataManagerProtocol { get }
+    var countriesDataManager: CountriesDataManagerProtocol { get }
 }
