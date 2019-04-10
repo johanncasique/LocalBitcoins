@@ -15,7 +15,7 @@ enum CountriesServiceError: Error {
     case networkError(Error)
 }
 
-typealias CountriesServiceResult = Result<Countries, CountriesServiceError>
+typealias CountriesServiceResult = Result<CountryData, CountriesServiceError>
 
 protocol CountriesServiceProtocol {
     func getCountries(completion: @escaping (CountriesServiceResult) -> Void)

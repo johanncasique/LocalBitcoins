@@ -50,8 +50,7 @@ class CountriesService: CountriesServiceProtocol {
     
     private func parse(from data: Data) -> CountriesServiceResult {
         do {
-            print(String(data: data, encoding: .utf8))
-            let countries = try JSONDecoder().decode(Countries.self, from: data)
+            let countries = try JSONDecoder().decode(CountryData.self, from: data)
             return .sucess(countries)
         } catch {
             return .failure(.invalidData)

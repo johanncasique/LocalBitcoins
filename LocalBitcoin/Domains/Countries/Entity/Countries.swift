@@ -13,12 +13,12 @@ struct CountryData: Codable {
 }
 
 struct Countries: Codable {
-    let countryList: [Country]
+    let countryList: [String]
     let countryCount: Int
     
-    init(countryList: [Country], countryCount: Int) {
+    init(countryList: [String], countryCount: Int) {
         self.countryList = countryList
-        self.countryCount = countryCount
+       self.countryCount = countryCount
     }
     
     enum CodingKeys: String, CodingKey {
@@ -28,7 +28,7 @@ struct Countries: Codable {
     
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
-        let countryList: [Country] = try container.decode([Country].self, forKey: .countryList)
+        let countryList: [String] = try container.decode([String].self, forKey: .countryList)
         let countryCount: Int = try container.decode(Int.self, forKey: .countryCount)
         self.init(countryList: countryList, countryCount: countryCount)
     }

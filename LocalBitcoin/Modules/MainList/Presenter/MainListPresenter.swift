@@ -67,7 +67,6 @@ class MainLisPresenter {
                 guard let `self` = self else { return }
                 var testArray = self.state.currentAds
                 testArray.append(contentsOf: adsData.adsArray)
-                print("👌🆗\(testArray.count)")
                 self.allAdsArray.append(contentsOf: adsData.adsArray)
                 
                 if adsData.hasMorePages, let nextPage = adsData.nextPage {

@@ -24,7 +24,7 @@ class CountriesDataManager: CountriesDataManagerProtocol {
             case .failure:
                 completion(.failure(.loadError))
             case .sucess(let countryData):
-                completion(.sucess(countryData))
+                completion(.sucess(countryData.data))
             }
         }
     }
