@@ -69,6 +69,7 @@
 		C5F53B392279F579008F542C /* RusableCellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F53B382279F579008F542C /* RusableCellProtocol.swift */; };
 		C5F53B3C2279F620008F542C /* TableViewCellExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F53B3B2279F620008F542C /* TableViewCellExtension.swift */; };
 		C5F53B3E2279F679008F542C /* TableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F53B3D2279F679008F542C /* TableViewExtension.swift */; };
+		C5F53B40227A1127008F542C /* LocaleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F53B3F227A1127008F542C /* LocaleExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -160,6 +161,7 @@
 		C5F53B382279F579008F542C /* RusableCellProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RusableCellProtocol.swift; sourceTree = "<group>"; };
 		C5F53B3B2279F620008F542C /* TableViewCellExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellExtension.swift; sourceTree = "<group>"; };
 		C5F53B3D2279F679008F542C /* TableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewExtension.swift; sourceTree = "<group>"; };
+		C5F53B3F227A1127008F542C /* LocaleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleExtension.swift; sourceTree = "<group>"; };
 		D7E05EE29792CAF64767F8F4 /* Pods_LocalBitcoin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocalBitcoin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F41914B4BE927E6624334678 /* Pods_LocalBitcoinUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocalBitcoinUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF942E57BEEAF169324274F7 /* Pods-LocalBitcoin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalBitcoin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LocalBitcoin/Pods-LocalBitcoin.debug.xcconfig"; sourceTree = "<group>"; };
@@ -490,6 +492,7 @@
 				A8ADE7922236C28600F942B7 /* StringExtension.swift */,
 				C5F53B3B2279F620008F542C /* TableViewCellExtension.swift */,
 				C5F53B3D2279F679008F542C /* TableViewExtension.swift */,
+				C5F53B3F227A1127008F542C /* LocaleExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -863,6 +866,7 @@
 				C58485662258BB0300BA1502 /* CountriesViewController.swift in Sources */,
 				C5F53B3C2279F620008F542C /* TableViewCellExtension.swift in Sources */,
 				1EB64499220106E8002F2188 /* WebServiceProtocol.swift in Sources */,
+				C5F53B40227A1127008F542C /* LocaleExtension.swift in Sources */,
 				C584857B2258D35000BA1502 /* CountriesDataManagerProtocol.swift in Sources */,
 				1EC9111821FFB8A30019F069 /* MainListViewController.swift in Sources */,
 				1EE2B0FC21FA5D7800A090D4 /* ViewController.swift in Sources */,

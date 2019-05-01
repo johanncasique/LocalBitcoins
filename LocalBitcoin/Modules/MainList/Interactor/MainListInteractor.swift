@@ -38,6 +38,7 @@ class MainListInteractor: MainListInteractorProtocol {
     func loadAllAds(page: Int, completion: @escaping (MainListInteractorTypeResult) -> Void) {
         
         dataManager.loadAds(page: page) { (result) in
+            
             switch result {
             case .sucess(let resultData):
                 let result = MainAdsListResult(ads: resultData?.data.adList,

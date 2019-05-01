@@ -33,4 +33,9 @@ extension String {
         }
         return String(hash).uppercased()
     }
+    
+    var removeWhiteSpaces: String {
+        return replacingOccurrences(of: " ", with: "")
+    }
+    
 }
