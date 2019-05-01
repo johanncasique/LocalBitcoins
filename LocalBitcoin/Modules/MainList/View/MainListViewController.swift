@@ -25,8 +25,7 @@ class MainListViewController: UIViewController {
     }
     
     @IBAction func openCountries(_ sender: UIButton) {
-        let builder = CountriesBuilder(environment: Environment())
-        present(builder.build(), animated: true)
+        presenter?.openCountryList()
     }
     
 }

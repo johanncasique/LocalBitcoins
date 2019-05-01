@@ -31,6 +31,7 @@ enum State {
 class MainLisPresenter {
     
     let interactor: MainListInteractorProtocol
+    let router: MainListRouterProtocol
     weak var delegate: MainListPresenterDelegate?
     var state = State.loading {
         didSet {
@@ -44,8 +45,9 @@ class MainLisPresenter {
     }
     var allAdsArray = [AdList]()
     
-    init(interactor: MainListInteractorProtocol) {
+    init(interactor: MainListInteractorProtocol, router: MainListRouterProtocol) {
         self.interactor = interactor
+        self.router = router
     }
     
     private func loadAllAds() {
@@ -119,6 +121,10 @@ extension MainLisPresenter: MainListPresenterProtocol {
     
     func pagination(_ page: Int) {
         update(page)
+    }
+    
+    func openCountryList() {
+        router.goToCountryList()
     }
 }
 

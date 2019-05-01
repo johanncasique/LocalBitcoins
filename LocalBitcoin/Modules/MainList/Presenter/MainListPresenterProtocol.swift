@@ -27,5 +27,5 @@ protocol MainListPresenterProtocol: PresenterProtocol {
     func model(at index: IndexPath) -> MainListViewModel?
     func showLoadingView()
     func pagination(_ page: Int)
-    
+    func openCountryList()
 }

@@ -64,6 +64,8 @@
 		C5848585225BDB9000BA1502 /* CountriesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5848584225BDB9000BA1502 /* CountriesViewController.xib */; };
 		C5848589225BEC9E00BA1502 /* CountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5848587225BEC9E00BA1502 /* CountryTableViewCell.swift */; };
 		C584858A225BEC9E00BA1502 /* CountryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5848588225BEC9E00BA1502 /* CountryTableViewCell.xib */; };
+		C5F53B342279ECE2008F542C /* MainListRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F53B332279ECE2008F542C /* MainListRouterProtocol.swift */; };
+		C5F53B362279ED11008F542C /* MainListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F53B352279ED11008F542C /* MainListRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -150,6 +152,8 @@
 		C5848584225BDB9000BA1502 /* CountriesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountriesViewController.xib; sourceTree = "<group>"; };
 		C5848587225BEC9E00BA1502 /* CountryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryTableViewCell.swift; sourceTree = "<group>"; };
 		C5848588225BEC9E00BA1502 /* CountryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountryTableViewCell.xib; sourceTree = "<group>"; };
+		C5F53B332279ECE2008F542C /* MainListRouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListRouterProtocol.swift; sourceTree = "<group>"; };
+		C5F53B352279ED11008F542C /* MainListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListRouter.swift; sourceTree = "<group>"; };
 		D7E05EE29792CAF64767F8F4 /* Pods_LocalBitcoin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocalBitcoin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F41914B4BE927E6624334678 /* Pods_LocalBitcoinUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocalBitcoinUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF942E57BEEAF169324274F7 /* Pods-LocalBitcoin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalBitcoin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LocalBitcoin/Pods-LocalBitcoin.debug.xcconfig"; sourceTree = "<group>"; };
@@ -301,6 +305,8 @@
 		1EC9110521FFB2810019F069 /* Router */ = {
 			isa = PBXGroup;
 			children = (
+				C5F53B332279ECE2008F542C /* MainListRouterProtocol.swift */,
+				C5F53B352279ED11008F542C /* MainListRouter.swift */,
 			);
 			path = Router;
 			sourceTree = "<group>";
@@ -856,6 +862,8 @@
 				1ED243E122049F3E000021CD /* VendorsDataManager.swift in Sources */,
 				C58485682258BB2D00BA1502 /* CountriesPresenter.swift in Sources */,
 				C584856A2258BB4300BA1502 /* CountriesPresenterProtocol.swift in Sources */,
+				C5F53B362279ED11008F542C /* MainListRouter.swift in Sources */,
+				C5F53B342279ECE2008F542C /* MainListRouterProtocol.swift in Sources */,
 				C584856E2258BB8F00BA1502 /* CountriesInteractorProtocol.swift in Sources */,
 				1EB64495220105CB002F2188 /* VendorsDataManagerProtocol.swift in Sources */,
 				1E64C74D2205F38000EF91A3 /* BuilderProtocol.swift in Sources */,
