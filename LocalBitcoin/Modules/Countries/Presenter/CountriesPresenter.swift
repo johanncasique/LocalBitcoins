@@ -14,6 +14,7 @@ class CountriesPresenter {
     var interactor: CountriesInteractorProtocol
     var countriesArray = [Country]()
     weak var delegate: CountriesPresenterDelegate?
+    weak var countryDelegate: CountrySelectedDelegate?
     
     init(router: CountriesRouterProtocol, interactor: CountriesInteractorProtocol) {
         self.router = router
@@ -30,12 +31,10 @@ class CountriesPresenter {
             }
         }
     }
-    
-    
-    
 }
 
 extension CountriesPresenter: CountriesPresenterProtocol {
+    
     var numberOfRows: Int {
         return countriesArray.count
     }
@@ -48,5 +47,9 @@ extension CountriesPresenter: CountriesPresenterProtocol {
         return countriesArray[index.row]
     }
     
+    func country(didSelect at: IndexPath) {
+        router.goToMainList()
+        countryDelegate?.didSelected(country: countriesArray[at.row])
+    }
     
 }

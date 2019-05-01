@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CountriesBuilder: EnvironmentConsumer, BuilderProtocol {
+class CountriesBuilder: EnvironmentConsumer, BuilderProtocol {    
     
     func build() -> UIViewController {
         
@@ -18,18 +18,8 @@ class CountriesBuilder: EnvironmentConsumer, BuilderProtocol {
         let view = CountriesViewController(presenter: presenter)
         view.presenter = presenter
         presenter.delegate = view
+        router.countryView = view
         
         return view
-        
-//        let interactor = MainListInteractor(dataManager: environment.vendorsDataManager)
-//        let presenter = MainLisPresenter(interactor: interactor)
-//        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-//        let dataSource = MainListTableViewDataSource(presenter: presenter)
-//        let view = storyboard.instantiateInitialViewController() as! MainListViewController
-//        view.presenter = presenter
-//        view.dataSource = dataSource
-//        presenter.delegate = view
-//
-//        return view
     }
 }

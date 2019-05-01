@@ -15,7 +15,7 @@ class MainListRouter: MainListRouterProtocol {
     func goToCountryList() {
         let builder = CountriesBuilder(environment: Environment())
         let countryViewController = builder.build()
-        
         baseView?.present(countryViewController, animated: true)
+        (countryViewController as? CountriesViewController)?.presenter.countryDelegate = baseView as? MainListViewController
     }
 }

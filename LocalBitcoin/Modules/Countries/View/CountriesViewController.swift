@@ -13,6 +13,7 @@ class CountriesViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView! {
         didSet {
             self.tableView.dataSource = self
+            self.tableView.delegate = self
         }
     }
     
@@ -64,4 +65,11 @@ extension CountriesViewController: UITableViewDataSource {
         return cell
     }
     
+}
+
+extension CountriesViewController: UITableViewDelegate {
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        presenter.country(didSelect: indexPath)
+    }
 }

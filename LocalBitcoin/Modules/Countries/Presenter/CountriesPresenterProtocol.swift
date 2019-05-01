@@ -8,11 +8,13 @@
 
 import Foundation
 
-protocol CountriesPresenterProtocol {
+protocol CountriesPresenterProtocol: class {
     var numberOfRows: Int { get }
+    var countryDelegate: CountrySelectedDelegate? { get set }
     
     func viewDidLoad()
     func model(from index: IndexPath) -> Country
+    func country(didSelect at: IndexPath)
     
 }
 
@@ -20,4 +22,6 @@ protocol CountriesPresenterDelegate: class {
     func reloadTableView()
 }
 
-
+protocol CountrySelectedDelegate: class {
+    func didSelected(country: Country) -> Void
+}

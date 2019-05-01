@@ -6,8 +6,13 @@
 //  Copyright © 2019 johann. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 class CountriesRouter: CountriesRouterProtocol {
     
+    var countryView: UIViewController?
+    
+    func goToMainList() {
+        countryView?.dismiss(animated: true)
+    }
 }

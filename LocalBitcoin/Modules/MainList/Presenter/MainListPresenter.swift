@@ -126,6 +126,8 @@ extension MainLisPresenter: MainListPresenterProtocol {
     func openCountryList() {
         router.goToCountryList()
     }
+    
+    func request(country: Country) {
+        print(country.isoCode)
+    }
 }
-
-

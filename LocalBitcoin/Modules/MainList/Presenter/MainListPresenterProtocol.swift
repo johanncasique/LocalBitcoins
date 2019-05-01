@@ -28,4 +28,5 @@ protocol MainListPresenterProtocol: PresenterProtocol {
     func showLoadingView()
     func pagination(_ page: Int)
     func openCountryList()
+    func request(country: Country)
 }

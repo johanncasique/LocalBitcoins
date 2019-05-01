@@ -56,3 +56,11 @@ extension MainListViewController: MainListPresenterDelegate {
         activity.hidesWhenStopped = true
     }
 }
+
+extension MainListViewController: CountrySelectedDelegate {
+    
+    func didSelected(country: Country) {
+        presenter?.request(country: country)
+    }
+    
+}
