@@ -9,8 +9,6 @@
 import UIKit
 
 class MainListTableViewDataSource: NSObject, UITableViewDataSource {
-    private let cellID = "MainCell"
-    
     let presenter: MainListPresenterProtocol
     
     init(presenter: MainListPresenterProtocol) {
@@ -22,7 +20,8 @@ class MainListTableViewDataSource: NSObject, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: cellID) as? MainListTableViewCell else { return UITableViewCell() }
+        
+        let cell: MainListTableViewCell = tableView.dequeReusableCell(forIndexPath: indexPath)
         
         guard let model = presenter.model(at: indexPath) else { return cell }
         cell.config(with: model)

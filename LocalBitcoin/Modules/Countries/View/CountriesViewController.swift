@@ -29,7 +29,7 @@ class CountriesViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.register(UINib(nibName: "CountryTableViewCell", bundle: nil), forCellReuseIdentifier: "cell")
+        tableView.registerNibCell(CountryTableViewCell.self)
         presenter.viewDidLoad()
     }
     
@@ -57,7 +57,7 @@ extension CountriesViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as? CountryTableViewCell else { return UITableViewCell() }
+        let cell: CountryTableViewCell = tableView.dequeReusableCell(forIndexPath: indexPath)
         
         cell.configure(from: presenter.model(from: indexPath))
         

@@ -20,7 +20,7 @@ class MainListViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.dataSource = dataSource
-        tableView.register(UINib(nibName: "MainListTableViewCell", bundle: nil), forCellReuseIdentifier: "MainCell")
+        tableView.registerNibCell(MainListTableViewCell.self)
         presenter?.viewDidLoad()
     }
     
