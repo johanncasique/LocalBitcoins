@@ -13,9 +13,7 @@ class Environment: EnvironmentProtocol {
     let webService = WebService()
     
     lazy var vendorsDataManager: VendorsDataManagerProtocol = {
-        let defaultCountryISO = Locale.countryISO ?? "VE"
-        let countryName = Locale.countryName(from: defaultCountryISO)?.removeWhiteSpaces ?? "venezuela"
-        let loadUrlString = "/buy-bitcoins-online/\(defaultCountryISO)/\(countryName)/.json"
+        let loadUrlString = "/buy-bitcoins-online/"
         let vendorsService = VendorsService(webService: webService, loadURLString: loadUrlString)
         let vendorsDataManager = VendorsDataManager(service: vendorsService)
         return vendorsDataManager

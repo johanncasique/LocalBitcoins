@@ -18,5 +18,5 @@ enum VendorsServiceError: Error {
 typealias VendorsServiceResult = Result<MainDataEntity?, VendorsServiceError>
 
 protocol VendorsServiceProtocol {
-    func loadMain(page: Int, completion: @escaping (VendorsServiceResult) -> Void)
+    func loadData(with country: Country?, for page: Int, completion: @escaping (VendorsServiceResult) -> Void)
 }

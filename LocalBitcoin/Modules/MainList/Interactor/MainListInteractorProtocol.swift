@@ -16,5 +16,5 @@ enum MainListInteractorError: Error {
 typealias MainListInteractorTypeResult = Result<MainAdsListResult, MainListInteractorError>
 
 protocol MainListInteractorProtocol {
-    func loadAllAds(page: Int, completion: @escaping (MainListInteractorTypeResult) -> Void)
+    func loadAllAds(from country: Country?, for page: Int, completion: @escaping (MainListInteractorTypeResult) -> Void)
 }

@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07774B621E94BFA4AE54F0BAE2C6C487 /* Pods-LocalBitcoin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79B00B2FEC5B4E0836E7589361C265C9 /* Pods-LocalBitcoin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0A5EE6D960BEB91C4DB28EC82970D81B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		2B8DDDBCC0E01442C694DA49BD48264D /* FlagKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8E0A3472CF2FE8FF0DACA2C0A8A7E9 /* FlagKit.swift */; };
-		4D346A977E381D1C13A0C3E80BF9A0C8 /* Pods-LocalBitcoinUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B12092D83BE99A9A3BE216CED0D418DB /* Pods-LocalBitcoinUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D67913AF6CA4E77B1542EF8AD450BC3 /* Pods-LocalBitcoinTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC4C4DF4461C8903E0A9D4D13E1F1FC3 /* Pods-LocalBitcoinTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		55A7CD23B91F02C9389081C2589CF626 /* Pods-LocalBitcoinUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BCACF72A6AFE17E691BF0930C8164E /* Pods-LocalBitcoinUITests-dummy.m */; };
-		5E633BAC403A56B9BD20FC9B25B60576 /* Pods-LocalBitcoin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B29E81386504118A0849C694BD130D40 /* Pods-LocalBitcoin-dummy.m */; };
-		6B43E09733D0850D94C8398FBB6923D7 /* Flag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545E22FC7C6282E39E7172977E0CDBFD /* Flag.swift */; };
-		7856FD5918D1BF678412181F4D492DC9 /* Pods-LocalBitcoinTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 380E4B2D8D97295EEAA0C394535FD8F7 /* Pods-LocalBitcoinTests-dummy.m */; };
-		7D59584BF2B1AE9CD1740C95EBD13677 /* FlagKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11D65AE48F703FD76866CF498D2B35A4 /* FlagKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84E2A936E394BC64C190364B1D5E7729 /* NSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B9C66FB2C596960EB12C0F51611AE0 /* NSImage.swift */; };
-		86E86E2CF20B3140868A805C6A673476 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		8D841595CF9C51393B63D9D52035F1E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		BDE1F46203ABC50B8830B87AFF240F91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		EE36A5BC8119537577FCAA0C752DDE07 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD08EA62F014263C6659883346BE0C3 /* UIImage.swift */; };
-		F13F2F209293A0C363DF4E4090C5EC59 /* FlagStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D590584B63D7153ADB796FFA0709D7D0 /* FlagStyle.swift */; };
+		069D56E36FA42784B038EA13D3B30DC0 /* NSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B9C66FB2C596960EB12C0F51611AE0 /* NSImage.swift */; };
+		07774B621E94BFA4AE54F0BAE2C6C487 /* Pods-LocalBitcoin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C3D0C424F4A798077F2D89591EC3E61F /* Pods-LocalBitcoin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		207D6BEC9CA31F5B81217EABDAEEC5A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2DE80EC1433EDDD48711DF15EF74D997 /* FlagKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8282B17932920F451D6EB7DA6AA3A0 /* FlagKit-dummy.m */; };
+		47E27838B1647A616D2FA9E2F78C854D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4D346A977E381D1C13A0C3E80BF9A0C8 /* Pods-LocalBitcoinUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EC302FB2FADC855C73F5672AADC3D44 /* Pods-LocalBitcoinUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D67913AF6CA4E77B1542EF8AD450BC3 /* Pods-LocalBitcoinTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C4D91F6A5A748BEEA078ED75DC68F20C /* Pods-LocalBitcoinTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54E903F758BA8211F4B0CB4EA216501A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		55A7CD23B91F02C9389081C2589CF626 /* Pods-LocalBitcoinUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55EC7725636526BA9D4E8D7A56094FE6 /* Pods-LocalBitcoinUITests-dummy.m */; };
+		59DB4EE922EEA3C49553536D9ACA70AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5E633BAC403A56B9BD20FC9B25B60576 /* Pods-LocalBitcoin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A308F2E8796C5F8B9FE455A2B9901DEA /* Pods-LocalBitcoin-dummy.m */; };
+		681727871128A9FB6481E2D32EF189AE /* FlagStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D590584B63D7153ADB796FFA0709D7D0 /* FlagStyle.swift */; };
+		7856FD5918D1BF678412181F4D492DC9 /* Pods-LocalBitcoinTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 438207BFE8B6660B40B7FBD802A948E2 /* Pods-LocalBitcoinTests-dummy.m */; };
+		7D59584BF2B1AE9CD1740C95EBD13677 /* FlagKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96BF4A37610B910DB4C8AA43BA785356 /* FlagKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABA1657296866B7F6A0C9CB7BA5904A2 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD08EA62F014263C6659883346BE0C3 /* UIImage.swift */; };
+		D8B27B20AC26D0055C6F86479236B263 /* Flag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545E22FC7C6282E39E7172977E0CDBFD /* Flag.swift */; };
+		EEFFEB417AA5EF95CFA82BBE1B216457 /* FlagKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8E0A3472CF2FE8FF0DACA2C0A8A7E9 /* FlagKit.swift */; };
 		F40872A7F26B690128B25F8BE18F38AE /* FlagKit.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DAD1EEE5C2314BFBF860543A11F8DB5 /* FlagKit.xcassets */; };
-		FCB7D2D8B3A5D8B34F657AC88714088F /* FlagKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C95A7EA8C112F5ACF113367C5D901E1 /* FlagKit-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,69 +32,69 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0AF7C93DABED3E663F103BE280803C5C;
+			remoteGlobalIDString = 28344F3D698B1DE3B5B4009273E6B43B;
 			remoteInfo = FlagKit;
 		};
 		B0F36C5FEE0B25D7C16DF883AFFDBA64 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3EACBFE4C9D832F3AF5451B8ED1BBFD2;
+			remoteGlobalIDString = B0B89A5274C6A4FAD1390971F98C1FEA;
 			remoteInfo = "Pods-LocalBitcoin";
 		};
 		FB6749E02FA128714954547B482B5B9B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3EACBFE4C9D832F3AF5451B8ED1BBFD2;
+			remoteGlobalIDString = B0B89A5274C6A4FAD1390971F98C1FEA;
 			remoteInfo = "Pods-LocalBitcoin";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04EBA1E7FEAD06C637684F6AE34DD18A /* Pods_LocalBitcoinTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LocalBitcoinTests.framework; path = "Pods-LocalBitcoinTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04ADEAB23A1948B7C6973B3670D9A2C2 /* Pods-LocalBitcoinUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocalBitcoinUITests.release.xcconfig"; sourceTree = "<group>"; };
 		05B9C66FB2C596960EB12C0F51611AE0 /* NSImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSImage.swift; path = Sources/Swift/FlagKit/NSImage.swift; sourceTree = "<group>"; };
-		077CA95DE2069B026ACB6DDD5620948A /* Pods-LocalBitcoinUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocalBitcoinUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		0CE79F90D9ADB3A55C2B835FBAFD3F12 /* Pods-LocalBitcoinTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocalBitcoinTests.release.xcconfig"; sourceTree = "<group>"; };
 		0DAD1EEE5C2314BFBF860543A11F8DB5 /* FlagKit.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = FlagKit.xcassets; path = Assets/FlagKit.xcassets; sourceTree = "<group>"; };
-		0F170939C01EB9CC85CA43A43E9A2D90 /* Pods_LocalBitcoin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LocalBitcoin.framework; path = "Pods-LocalBitcoin.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		11D65AE48F703FD76866CF498D2B35A4 /* FlagKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlagKit-umbrella.h"; sourceTree = "<group>"; };
-		2A019814669FFB8FEDA206A4B9C185F8 /* FlagKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FlagKit-Info.plist"; sourceTree = "<group>"; };
-		3493ED557B79498D8878DDBEAF17774C /* Pods-LocalBitcoin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocalBitcoin-Info.plist"; sourceTree = "<group>"; };
-		380E4B2D8D97295EEAA0C394535FD8F7 /* Pods-LocalBitcoinTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LocalBitcoinTests-dummy.m"; sourceTree = "<group>"; };
-		388D5D225DAA0D189D59739423A27E22 /* FlagKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FlagKit.framework; path = FlagKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3AC7E9DDE302098A17A7A34E1A0F1452 /* Pods-LocalBitcoinTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LocalBitcoinTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		444EA4B34BC9F10AB333238DC844CF63 /* Pods-LocalBitcoin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocalBitcoin.debug.xcconfig"; sourceTree = "<group>"; };
-		4B4829BA047A7965EDE14878E0045C03 /* Pods-LocalBitcoin-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LocalBitcoin-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4C95A7EA8C112F5ACF113367C5D901E1 /* FlagKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlagKit-dummy.m"; sourceTree = "<group>"; };
+		1527C315E6DD3F7110DEFBFCA99FB948 /* Pods-LocalBitcoin-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocalBitcoin-acknowledgements.plist"; sourceTree = "<group>"; };
+		18919C9461E3446A5AEC04C8FB0C0BC1 /* Pods-LocalBitcoinUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LocalBitcoinUITests.modulemap"; sourceTree = "<group>"; };
+		1EC302FB2FADC855C73F5672AADC3D44 /* Pods-LocalBitcoinUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LocalBitcoinUITests-umbrella.h"; sourceTree = "<group>"; };
+		2B0A5F823E208C3E58AE70CA3BFEC171 /* Pods-LocalBitcoinTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocalBitcoinTests-Info.plist"; sourceTree = "<group>"; };
+		2F66705DB0664A8075AAB698A4F2D73E /* Pods_LocalBitcoinTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LocalBitcoinTests.framework; path = "Pods-LocalBitcoinTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		438207BFE8B6660B40B7FBD802A948E2 /* Pods-LocalBitcoinTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LocalBitcoinTests-dummy.m"; sourceTree = "<group>"; };
 		545E22FC7C6282E39E7172977E0CDBFD /* Flag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Flag.swift; path = Sources/Swift/FlagKit/Flag.swift; sourceTree = "<group>"; };
-		57BCACF72A6AFE17E691BF0930C8164E /* Pods-LocalBitcoinUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LocalBitcoinUITests-dummy.m"; sourceTree = "<group>"; };
-		5E4DC5458A185468FE55EC54F77DF64D /* Pods-LocalBitcoinUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocalBitcoinUITests-Info.plist"; sourceTree = "<group>"; };
-		6360B445313618158F2B402F6EF0751D /* Pods-LocalBitcoin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LocalBitcoin.modulemap"; sourceTree = "<group>"; };
-		6E2BE1B77468971FE6EAF8FA94E91422 /* Pods-LocalBitcoinTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocalBitcoinTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		79B00B2FEC5B4E0836E7589361C265C9 /* Pods-LocalBitcoin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LocalBitcoin-umbrella.h"; sourceTree = "<group>"; };
-		7BCAAE9F740AEE827D48D6731295EE4C /* FlagKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FlagKit.modulemap; sourceTree = "<group>"; };
-		8436CA7E83B78D5B4D1C069E908EB6D4 /* Pods-LocalBitcoin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocalBitcoin.release.xcconfig"; sourceTree = "<group>"; };
-		95CE12924E839BF2D3FE22E9F4C5BC62 /* Pods-LocalBitcoinTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LocalBitcoinTests.modulemap"; sourceTree = "<group>"; };
-		99605AFF7081F1D4F4AEF677A3564876 /* FlagKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlagKit-prefix.pch"; sourceTree = "<group>"; };
-		9B0BE36A733BBE8ACC20E82E068F1474 /* Pods_LocalBitcoinUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LocalBitcoinUITests.framework; path = "Pods-LocalBitcoinUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9BEDDB1550BD46A52BA762AC5FBB520A /* Pods-LocalBitcoinUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LocalBitcoinUITests.modulemap"; sourceTree = "<group>"; };
+		55EC7725636526BA9D4E8D7A56094FE6 /* Pods-LocalBitcoinUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LocalBitcoinUITests-dummy.m"; sourceTree = "<group>"; };
+		5CD58211642723E68EA0ECF2B0A84FFF /* Pods-LocalBitcoinTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LocalBitcoinTests.modulemap"; sourceTree = "<group>"; };
+		5D8282B17932920F451D6EB7DA6AA3A0 /* FlagKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlagKit-dummy.m"; sourceTree = "<group>"; };
+		5EFA2DB1E3909EE5A49AF3402ECC7D30 /* FlagKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlagKit.xcconfig; sourceTree = "<group>"; };
+		616B015E71DC0064BF1DB23B5FB5889A /* FlagKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FlagKit-Info.plist"; sourceTree = "<group>"; };
+		6A142F06F3FE8E637F22A7D38DD875F6 /* Pods-LocalBitcoinUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocalBitcoinUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		71455959631134E14474943BA3202D70 /* Pods-LocalBitcoin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocalBitcoin.debug.xcconfig"; sourceTree = "<group>"; };
+		7F6D20667353F29E5ACE9E2ECF479A53 /* Pods_LocalBitcoin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LocalBitcoin.framework; path = "Pods-LocalBitcoin.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80F50993B34442D558786855270F4E4B /* Pods-LocalBitcoin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocalBitcoin.release.xcconfig"; sourceTree = "<group>"; };
+		8A915E7CD2863ACF15D304B948BD70AC /* FlagKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FlagKit.framework; path = FlagKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90F60F9684E211CCFC001E7ADE15B68D /* FlagKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlagKit-prefix.pch"; sourceTree = "<group>"; };
+		96BF4A37610B910DB4C8AA43BA785356 /* FlagKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlagKit-umbrella.h"; sourceTree = "<group>"; };
 		9C8E0A3472CF2FE8FF0DACA2C0A8A7E9 /* FlagKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlagKit.swift; path = Sources/Swift/FlagKit/FlagKit.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D9662BA561FFC297E0A73B86020FE7A /* Pods-LocalBitcoin-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LocalBitcoin-frameworks.sh"; sourceTree = "<group>"; };
-		AA55556015E960A1BB0EF35DF207620A /* Pods-LocalBitcoinUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocalBitcoinUITests.release.xcconfig"; sourceTree = "<group>"; };
-		B12092D83BE99A9A3BE216CED0D418DB /* Pods-LocalBitcoinUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LocalBitcoinUITests-umbrella.h"; sourceTree = "<group>"; };
-		B29E81386504118A0849C694BD130D40 /* Pods-LocalBitcoin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LocalBitcoin-dummy.m"; sourceTree = "<group>"; };
+		A195681182A3E55C162C018B3419F85E /* Pods-LocalBitcoin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LocalBitcoin.modulemap"; sourceTree = "<group>"; };
+		A2213754D3C75F1D67A324E1F961FD27 /* Pods-LocalBitcoinTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocalBitcoinTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A308F2E8796C5F8B9FE455A2B9901DEA /* Pods-LocalBitcoin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LocalBitcoin-dummy.m"; sourceTree = "<group>"; };
+		B4184B0DC7865700E27ED3C9098EE9AE /* Pods_LocalBitcoinUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LocalBitcoinUITests.framework; path = "Pods-LocalBitcoinUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBD08EA62F014263C6659883346BE0C3 /* UIImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImage.swift; path = Sources/Swift/FlagKit/UIImage.swift; sourceTree = "<group>"; };
-		C23B6CF3D17C0E41805351E9BC5F9B95 /* Pods-LocalBitcoin-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocalBitcoin-acknowledgements.plist"; sourceTree = "<group>"; };
-		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C03CA6700D78172215A9A05580F727DA /* Pods-LocalBitcoin-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LocalBitcoin-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C3D0C424F4A798077F2D89591EC3E61F /* Pods-LocalBitcoin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LocalBitcoin-umbrella.h"; sourceTree = "<group>"; };
+		C418F8DECB6B9BC88B2637D193A3801C /* Pods-LocalBitcoinUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LocalBitcoinUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C4D91F6A5A748BEEA078ED75DC68F20C /* Pods-LocalBitcoinTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LocalBitcoinTests-umbrella.h"; sourceTree = "<group>"; };
+		C7419840E87582166C5BB5CAB14EE057 /* Pods-LocalBitcoin-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LocalBitcoin-frameworks.sh"; sourceTree = "<group>"; };
+		C99288C30BBFEF424FC0DF729BD2355C /* Pods-LocalBitcoinUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocalBitcoinUITests-Info.plist"; sourceTree = "<group>"; };
+		D442D686D097BEB886191C8527F198DD /* Pods-LocalBitcoinUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocalBitcoinUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D590584B63D7153ADB796FFA0709D7D0 /* FlagStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlagStyle.swift; path = Sources/Swift/FlagKit/FlagStyle.swift; sourceTree = "<group>"; };
-		DBB16D7BF14EFB555DBE9DE1B8222BF3 /* FlagKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlagKit.xcconfig; sourceTree = "<group>"; };
-		DC4C4DF4461C8903E0A9D4D13E1F1FC3 /* Pods-LocalBitcoinTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LocalBitcoinTests-umbrella.h"; sourceTree = "<group>"; };
-		E1E0F08E4F9AF898E1A416C733ADACF0 /* Pods-LocalBitcoinUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocalBitcoinUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		EBBFC5BA5A937F355880430D6E96195B /* Pods-LocalBitcoinUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LocalBitcoinUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F35089153F0E5B8A7D4D534E1A484481 /* Pods-LocalBitcoinTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocalBitcoinTests.debug.xcconfig"; sourceTree = "<group>"; };
-		F40D80EEA9650D4C350D1A143CFFCAEB /* Pods-LocalBitcoinTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocalBitcoinTests-Info.plist"; sourceTree = "<group>"; };
+		DABC77E77105F617497403D8A56B5319 /* Pods-LocalBitcoin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocalBitcoin-Info.plist"; sourceTree = "<group>"; };
+		E89E40AC80102C7AE6C88AEF617717B9 /* Pods-LocalBitcoinTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocalBitcoinTests.release.xcconfig"; sourceTree = "<group>"; };
+		E8FD160DFF5AA37FD5724CC8691D76A5 /* Pods-LocalBitcoinTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LocalBitcoinTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F85478093CFABC4DDBDE1373F1CD33B2 /* FlagKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FlagKit.modulemap; sourceTree = "<group>"; };
+		FD52B85230C31ABFC677931C902BEB4E /* Pods-LocalBitcoinTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocalBitcoinTests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A5EE6D960BEB91C4DB28EC82970D81B /* Foundation.framework in Frameworks */,
+				59DB4EE922EEA3C49553536D9ACA70AE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,7 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86E86E2CF20B3140868A805C6A673476 /* Foundation.framework in Frameworks */,
+				207D6BEC9CA31F5B81217EABDAEEC5A2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,7 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDE1F46203ABC50B8830B87AFF240F91 /* Foundation.framework in Frameworks */,
+				54E903F758BA8211F4B0CB4EA216501A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,7 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D841595CF9C51393B63D9D52035F1E0 /* Foundation.framework in Frameworks */,
+				47E27838B1647A616D2FA9E2F78C854D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,60 +136,44 @@
 		03196E2A3F197574CBD493F7CE2CA1E8 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				11F9F471F7C75D076F8D17183301D83A /* Pods-LocalBitcoin */,
-				54246E5F79D9E067EB5BF95A3D2DE359 /* Pods-LocalBitcoinTests */,
-				7DCE2139218655D425A0426D141F51A1 /* Pods-LocalBitcoinUITests */,
+				5B30FC030C52B2ACB8ED46AC0B8EFF54 /* Pods-LocalBitcoin */,
+				3EE9D8AC31A31F480AAB5C127A109F7B /* Pods-LocalBitcoinTests */,
+				92173A923FA566BD65EE0067AC332670 /* Pods-LocalBitcoinUITests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		11F9F471F7C75D076F8D17183301D83A /* Pods-LocalBitcoin */ = {
+		3EE9D8AC31A31F480AAB5C127A109F7B /* Pods-LocalBitcoinTests */ = {
 			isa = PBXGroup;
 			children = (
-				6360B445313618158F2B402F6EF0751D /* Pods-LocalBitcoin.modulemap */,
-				4B4829BA047A7965EDE14878E0045C03 /* Pods-LocalBitcoin-acknowledgements.markdown */,
-				C23B6CF3D17C0E41805351E9BC5F9B95 /* Pods-LocalBitcoin-acknowledgements.plist */,
-				B29E81386504118A0849C694BD130D40 /* Pods-LocalBitcoin-dummy.m */,
-				9D9662BA561FFC297E0A73B86020FE7A /* Pods-LocalBitcoin-frameworks.sh */,
-				3493ED557B79498D8878DDBEAF17774C /* Pods-LocalBitcoin-Info.plist */,
-				79B00B2FEC5B4E0836E7589361C265C9 /* Pods-LocalBitcoin-umbrella.h */,
-				444EA4B34BC9F10AB333238DC844CF63 /* Pods-LocalBitcoin.debug.xcconfig */,
-				8436CA7E83B78D5B4D1C069E908EB6D4 /* Pods-LocalBitcoin.release.xcconfig */,
-			);
-			name = "Pods-LocalBitcoin";
-			path = "Target Support Files/Pods-LocalBitcoin";
-			sourceTree = "<group>";
-		};
-		54246E5F79D9E067EB5BF95A3D2DE359 /* Pods-LocalBitcoinTests */ = {
-			isa = PBXGroup;
-			children = (
-				95CE12924E839BF2D3FE22E9F4C5BC62 /* Pods-LocalBitcoinTests.modulemap */,
-				3AC7E9DDE302098A17A7A34E1A0F1452 /* Pods-LocalBitcoinTests-acknowledgements.markdown */,
-				6E2BE1B77468971FE6EAF8FA94E91422 /* Pods-LocalBitcoinTests-acknowledgements.plist */,
-				380E4B2D8D97295EEAA0C394535FD8F7 /* Pods-LocalBitcoinTests-dummy.m */,
-				F40D80EEA9650D4C350D1A143CFFCAEB /* Pods-LocalBitcoinTests-Info.plist */,
-				DC4C4DF4461C8903E0A9D4D13E1F1FC3 /* Pods-LocalBitcoinTests-umbrella.h */,
-				F35089153F0E5B8A7D4D534E1A484481 /* Pods-LocalBitcoinTests.debug.xcconfig */,
-				0CE79F90D9ADB3A55C2B835FBAFD3F12 /* Pods-LocalBitcoinTests.release.xcconfig */,
+				5CD58211642723E68EA0ECF2B0A84FFF /* Pods-LocalBitcoinTests.modulemap */,
+				E8FD160DFF5AA37FD5724CC8691D76A5 /* Pods-LocalBitcoinTests-acknowledgements.markdown */,
+				FD52B85230C31ABFC677931C902BEB4E /* Pods-LocalBitcoinTests-acknowledgements.plist */,
+				438207BFE8B6660B40B7FBD802A948E2 /* Pods-LocalBitcoinTests-dummy.m */,
+				2B0A5F823E208C3E58AE70CA3BFEC171 /* Pods-LocalBitcoinTests-Info.plist */,
+				C4D91F6A5A748BEEA078ED75DC68F20C /* Pods-LocalBitcoinTests-umbrella.h */,
+				A2213754D3C75F1D67A324E1F961FD27 /* Pods-LocalBitcoinTests.debug.xcconfig */,
+				E89E40AC80102C7AE6C88AEF617717B9 /* Pods-LocalBitcoinTests.release.xcconfig */,
 			);
 			name = "Pods-LocalBitcoinTests";
 			path = "Target Support Files/Pods-LocalBitcoinTests";
 			sourceTree = "<group>";
 		};
-		7DCE2139218655D425A0426D141F51A1 /* Pods-LocalBitcoinUITests */ = {
+		5B30FC030C52B2ACB8ED46AC0B8EFF54 /* Pods-LocalBitcoin */ = {
 			isa = PBXGroup;
 			children = (
-				9BEDDB1550BD46A52BA762AC5FBB520A /* Pods-LocalBitcoinUITests.modulemap */,
-				EBBFC5BA5A937F355880430D6E96195B /* Pods-LocalBitcoinUITests-acknowledgements.markdown */,
-				077CA95DE2069B026ACB6DDD5620948A /* Pods-LocalBitcoinUITests-acknowledgements.plist */,
-				57BCACF72A6AFE17E691BF0930C8164E /* Pods-LocalBitcoinUITests-dummy.m */,
-				5E4DC5458A185468FE55EC54F77DF64D /* Pods-LocalBitcoinUITests-Info.plist */,
-				B12092D83BE99A9A3BE216CED0D418DB /* Pods-LocalBitcoinUITests-umbrella.h */,
-				E1E0F08E4F9AF898E1A416C733ADACF0 /* Pods-LocalBitcoinUITests.debug.xcconfig */,
-				AA55556015E960A1BB0EF35DF207620A /* Pods-LocalBitcoinUITests.release.xcconfig */,
+				A195681182A3E55C162C018B3419F85E /* Pods-LocalBitcoin.modulemap */,
+				C03CA6700D78172215A9A05580F727DA /* Pods-LocalBitcoin-acknowledgements.markdown */,
+				1527C315E6DD3F7110DEFBFCA99FB948 /* Pods-LocalBitcoin-acknowledgements.plist */,
+				A308F2E8796C5F8B9FE455A2B9901DEA /* Pods-LocalBitcoin-dummy.m */,
+				C7419840E87582166C5BB5CAB14EE057 /* Pods-LocalBitcoin-frameworks.sh */,
+				DABC77E77105F617497403D8A56B5319 /* Pods-LocalBitcoin-Info.plist */,
+				C3D0C424F4A798077F2D89591EC3E61F /* Pods-LocalBitcoin-umbrella.h */,
+				71455959631134E14474943BA3202D70 /* Pods-LocalBitcoin.debug.xcconfig */,
+				80F50993B34442D558786855270F4E4B /* Pods-LocalBitcoin.release.xcconfig */,
 			);
-			name = "Pods-LocalBitcoinUITests";
-			path = "Target Support Files/Pods-LocalBitcoinUITests";
+			name = "Pods-LocalBitcoin";
+			path = "Target Support Files/Pods-LocalBitcoin";
 			sourceTree = "<group>";
 		};
 		814C577F0EFFC9F63053EC4029DCA4B4 /* FlagKit */ = {
@@ -201,7 +185,7 @@
 				05B9C66FB2C596960EB12C0F51611AE0 /* NSImage.swift */,
 				BBD08EA62F014263C6659883346BE0C3 /* UIImage.swift */,
 				FBB86DC099C7369B0202DED7B8646402 /* Resources */,
-				BF008A2CBC3B32248512DB12F1AB4717 /* Support Files */,
+				F7AAE1AA28C067E4C755756449ECFD3A /* Support Files */,
 			);
 			name = FlagKit;
 			path = FlagKit;
@@ -210,34 +194,36 @@
 		88C647EDD5D4862F259A0D87F9F73A17 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				388D5D225DAA0D189D59739423A27E22 /* FlagKit.framework */,
-				0F170939C01EB9CC85CA43A43E9A2D90 /* Pods_LocalBitcoin.framework */,
-				04EBA1E7FEAD06C637684F6AE34DD18A /* Pods_LocalBitcoinTests.framework */,
-				9B0BE36A733BBE8ACC20E82E068F1474 /* Pods_LocalBitcoinUITests.framework */,
+				8A915E7CD2863ACF15D304B948BD70AC /* FlagKit.framework */,
+				7F6D20667353F29E5ACE9E2ECF479A53 /* Pods_LocalBitcoin.framework */,
+				2F66705DB0664A8075AAB698A4F2D73E /* Pods_LocalBitcoinTests.framework */,
+				B4184B0DC7865700E27ED3C9098EE9AE /* Pods_LocalBitcoinUITests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+		92173A923FA566BD65EE0067AC332670 /* Pods-LocalBitcoinUITests */ = {
 			isa = PBXGroup;
 			children = (
-				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+				18919C9461E3446A5AEC04C8FB0C0BC1 /* Pods-LocalBitcoinUITests.modulemap */,
+				C418F8DECB6B9BC88B2637D193A3801C /* Pods-LocalBitcoinUITests-acknowledgements.markdown */,
+				D442D686D097BEB886191C8527F198DD /* Pods-LocalBitcoinUITests-acknowledgements.plist */,
+				55EC7725636526BA9D4E8D7A56094FE6 /* Pods-LocalBitcoinUITests-dummy.m */,
+				C99288C30BBFEF424FC0DF729BD2355C /* Pods-LocalBitcoinUITests-Info.plist */,
+				1EC302FB2FADC855C73F5672AADC3D44 /* Pods-LocalBitcoinUITests-umbrella.h */,
+				6A142F06F3FE8E637F22A7D38DD875F6 /* Pods-LocalBitcoinUITests.debug.xcconfig */,
+				04ADEAB23A1948B7C6973B3670D9A2C2 /* Pods-LocalBitcoinUITests.release.xcconfig */,
 			);
-			name = iOS;
+			name = "Pods-LocalBitcoinUITests";
+			path = "Target Support Files/Pods-LocalBitcoinUITests";
 			sourceTree = "<group>";
 		};
-		BF008A2CBC3B32248512DB12F1AB4717 /* Support Files */ = {
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				7BCAAE9F740AEE827D48D6731295EE4C /* FlagKit.modulemap */,
-				DBB16D7BF14EFB555DBE9DE1B8222BF3 /* FlagKit.xcconfig */,
-				4C95A7EA8C112F5ACF113367C5D901E1 /* FlagKit-dummy.m */,
-				2A019814669FFB8FEDA206A4B9C185F8 /* FlagKit-Info.plist */,
-				99605AFF7081F1D4F4AEF677A3564876 /* FlagKit-prefix.pch */,
-				11D65AE48F703FD76866CF498D2B35A4 /* FlagKit-umbrella.h */,
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/FlagKit";
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -254,7 +240,7 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -265,6 +251,20 @@
 				814C577F0EFFC9F63053EC4029DCA4B4 /* FlagKit */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		F7AAE1AA28C067E4C755756449ECFD3A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F85478093CFABC4DDBDE1373F1CD33B2 /* FlagKit.modulemap */,
+				5EFA2DB1E3909EE5A49AF3402ECC7D30 /* FlagKit.xcconfig */,
+				5D8282B17932920F451D6EB7DA6AA3A0 /* FlagKit-dummy.m */,
+				616B015E71DC0064BF1DB23B5FB5889A /* FlagKit-Info.plist */,
+				90F60F9684E211CCFC001E7ADE15B68D /* FlagKit-prefix.pch */,
+				96BF4A37610B910DB4C8AA43BA785356 /* FlagKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FlagKit";
 			sourceTree = "<group>";
 		};
 		FBB86DC099C7369B0202DED7B8646402 /* Resources */ = {
@@ -313,12 +313,12 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0AF7C93DABED3E663F103BE280803C5C /* FlagKit */ = {
+		28344F3D698B1DE3B5B4009273E6B43B /* FlagKit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B68248D8CC4E61B7A340CC6C3333F328 /* Build configuration list for PBXNativeTarget "FlagKit" */;
 			buildPhases = (
 				CE2FD474E81A7BC85450E391C9F43610 /* Headers */,
-				591398610B11BDE9391A556D2E9441E7 /* Sources */,
+				60C9DBB20FB4E8FFFA0372A11D993634 /* Sources */,
 				6B768EB24FD4C316DF484EA6DBD47203 /* Frameworks */,
 				76487F3D33B7B38A0A6699CC2CDADAD2 /* Resources */,
 			);
@@ -328,29 +328,10 @@
 			);
 			name = FlagKit;
 			productName = FlagKit;
-			productReference = 388D5D225DAA0D189D59739423A27E22 /* FlagKit.framework */;
+			productReference = 8A915E7CD2863ACF15D304B948BD70AC /* FlagKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3139DED5AB0E6C0296A588F4623787F3 /* Pods-LocalBitcoinTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B02F5AFC8908B5EA789ACD7E604B5D49 /* Build configuration list for PBXNativeTarget "Pods-LocalBitcoinTests" */;
-			buildPhases = (
-				685D46D0F0AB052608F50A7D0E3BA694 /* Headers */,
-				DC55D83F0B7AFFAA2E9BBE972E9D8CDF /* Sources */,
-				81A8B11EB71B0CBEAB14727551090DDA /* Frameworks */,
-				E3F8C893C51C680EF5D66C2447E218F7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A0CCB1F30C4A5DCC4D7A37BF159A26A2 /* PBXTargetDependency */,
-			);
-			name = "Pods-LocalBitcoinTests";
-			productName = "Pods-LocalBitcoinTests";
-			productReference = 04EBA1E7FEAD06C637684F6AE34DD18A /* Pods_LocalBitcoinTests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		3EACBFE4C9D832F3AF5451B8ED1BBFD2 /* Pods-LocalBitcoin */ = {
+		B0B89A5274C6A4FAD1390971F98C1FEA /* Pods-LocalBitcoin */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 74342B3D2538C86F24E4B5D880B9AF69 /* Build configuration list for PBXNativeTarget "Pods-LocalBitcoin" */;
 			buildPhases = (
@@ -366,10 +347,29 @@
 			);
 			name = "Pods-LocalBitcoin";
 			productName = "Pods-LocalBitcoin";
-			productReference = 0F170939C01EB9CC85CA43A43E9A2D90 /* Pods_LocalBitcoin.framework */;
+			productReference = 7F6D20667353F29E5ACE9E2ECF479A53 /* Pods_LocalBitcoin.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		767B159FDBE0C5D669791250332A6681 /* Pods-LocalBitcoinUITests */ = {
+		B8565F163EF29E8A3D245239D6633BF3 /* Pods-LocalBitcoinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B02F5AFC8908B5EA789ACD7E604B5D49 /* Build configuration list for PBXNativeTarget "Pods-LocalBitcoinTests" */;
+			buildPhases = (
+				685D46D0F0AB052608F50A7D0E3BA694 /* Headers */,
+				DC55D83F0B7AFFAA2E9BBE972E9D8CDF /* Sources */,
+				81A8B11EB71B0CBEAB14727551090DDA /* Frameworks */,
+				E3F8C893C51C680EF5D66C2447E218F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0CCB1F30C4A5DCC4D7A37BF159A26A2 /* PBXTargetDependency */,
+			);
+			name = "Pods-LocalBitcoinTests";
+			productName = "Pods-LocalBitcoinTests";
+			productReference = 2F66705DB0664A8075AAB698A4F2D73E /* Pods_LocalBitcoinTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CEEB4CA3F69B5C534B34767F5E8D38FE /* Pods-LocalBitcoinUITests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2DD5A9C47A764E7126CC33867627D491 /* Build configuration list for PBXNativeTarget "Pods-LocalBitcoinUITests" */;
 			buildPhases = (
@@ -385,7 +385,7 @@
 			);
 			name = "Pods-LocalBitcoinUITests";
 			productName = "Pods-LocalBitcoinUITests";
-			productReference = 9B0BE36A733BBE8ACC20E82E068F1474 /* Pods_LocalBitcoinUITests.framework */;
+			productReference = B4184B0DC7865700E27ED3C9098EE9AE /* Pods_LocalBitcoinUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -394,12 +394,12 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -409,10 +409,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0AF7C93DABED3E663F103BE280803C5C /* FlagKit */,
-				3EACBFE4C9D832F3AF5451B8ED1BBFD2 /* Pods-LocalBitcoin */,
-				3139DED5AB0E6C0296A588F4623787F3 /* Pods-LocalBitcoinTests */,
-				767B159FDBE0C5D669791250332A6681 /* Pods-LocalBitcoinUITests */,
+				28344F3D698B1DE3B5B4009273E6B43B /* FlagKit */,
+				B0B89A5274C6A4FAD1390971F98C1FEA /* Pods-LocalBitcoin */,
+				B8565F163EF29E8A3D245239D6633BF3 /* Pods-LocalBitcoinTests */,
+				CEEB4CA3F69B5C534B34767F5E8D38FE /* Pods-LocalBitcoinUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -450,16 +450,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		591398610B11BDE9391A556D2E9441E7 /* Sources */ = {
+		60C9DBB20FB4E8FFFA0372A11D993634 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B43E09733D0850D94C8398FBB6923D7 /* Flag.swift in Sources */,
-				FCB7D2D8B3A5D8B34F657AC88714088F /* FlagKit-dummy.m in Sources */,
-				2B8DDDBCC0E01442C694DA49BD48264D /* FlagKit.swift in Sources */,
-				F13F2F209293A0C363DF4E4090C5EC59 /* FlagStyle.swift in Sources */,
-				84E2A936E394BC64C190364B1D5E7729 /* NSImage.swift in Sources */,
-				EE36A5BC8119537577FCAA0C752DDE07 /* UIImage.swift in Sources */,
+				D8B27B20AC26D0055C6F86479236B263 /* Flag.swift in Sources */,
+				2DE80EC1433EDDD48711DF15EF74D997 /* FlagKit-dummy.m in Sources */,
+				EEFFEB417AA5EF95CFA82BBE1B216457 /* FlagKit.swift in Sources */,
+				681727871128A9FB6481E2D32EF189AE /* FlagStyle.swift in Sources */,
+				069D56E36FA42784B038EA13D3B30DC0 /* NSImage.swift in Sources */,
+				ABA1657296866B7F6A0C9CB7BA5904A2 /* UIImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,19 +493,19 @@
 		1B8C7DF3DA52FAE0EBBDEEB3A2E1DD50 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-LocalBitcoin";
-			target = 3EACBFE4C9D832F3AF5451B8ED1BBFD2 /* Pods-LocalBitcoin */;
+			target = B0B89A5274C6A4FAD1390971F98C1FEA /* Pods-LocalBitcoin */;
 			targetProxy = B0F36C5FEE0B25D7C16DF883AFFDBA64 /* PBXContainerItemProxy */;
 		};
 		A0CCB1F30C4A5DCC4D7A37BF159A26A2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-LocalBitcoin";
-			target = 3EACBFE4C9D832F3AF5451B8ED1BBFD2 /* Pods-LocalBitcoin */;
+			target = B0B89A5274C6A4FAD1390971F98C1FEA /* Pods-LocalBitcoin */;
 			targetProxy = FB6749E02FA128714954547B482B5B9B /* PBXContainerItemProxy */;
 		};
 		A824DDAAEECDC0DE9CC0D0D81F8D1CBB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FlagKit;
-			target = 0AF7C93DABED3E663F103BE280803C5C /* FlagKit */;
+			target = 28344F3D698B1DE3B5B4009273E6B43B /* FlagKit */;
 			targetProxy = A188539F1A4E4EE8F41BCA503F10361F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -513,7 +513,7 @@
 /* Begin XCBuildConfiguration section */
 		1DB05E3CB23A0466B7C7A64467C583B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 444EA4B34BC9F10AB333238DC844CF63 /* Pods-LocalBitcoin.debug.xcconfig */;
+			baseConfigurationReference = 71455959631134E14474943BA3202D70 /* Pods-LocalBitcoin.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -549,45 +549,7 @@
 			};
 			name = Debug;
 		};
-		3FA96AB255752E168CC056D8B38D1673 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F35089153F0E5B8A7D4D534E1A484481 /* Pods-LocalBitcoinTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LocalBitcoinTests/Pods-LocalBitcoinTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LocalBitcoinTests/Pods-LocalBitcoinTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4CE281642D6EE9FAB113046B4B6328A0 /* Release */ = {
+		257497152829C177993B5EC99C1D227A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -642,14 +604,52 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
+		3FA96AB255752E168CC056D8B38D1673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2213754D3C75F1D67A324E1F961FD27 /* Pods-LocalBitcoinTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LocalBitcoinTests/Pods-LocalBitcoinTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LocalBitcoinTests/Pods-LocalBitcoinTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		6762EA0965E6D97B2837BAE1DA1DD0A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1E0F08E4F9AF898E1A416C733ADACF0 /* Pods-LocalBitcoinUITests.debug.xcconfig */;
+			baseConfigurationReference = 6A142F06F3FE8E637F22A7D38DD875F6 /* Pods-LocalBitcoinUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -685,7 +685,197 @@
 			};
 			name = Debug;
 		};
-		6DFA1578582149B7E24AD55CBA30F07A /* Debug */ = {
+		727F54C1D6A4E5D0FF35E6F611FF417F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04ADEAB23A1948B7C6973B3670D9A2C2 /* Pods-LocalBitcoinUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LocalBitcoinUITests/Pods-LocalBitcoinUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LocalBitcoinUITests/Pods-LocalBitcoinUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AD73A6B627F70A82D1EBFDB7C26040AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E89E40AC80102C7AE6C88AEF617717B9 /* Pods-LocalBitcoinTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LocalBitcoinTests/Pods-LocalBitcoinTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LocalBitcoinTests/Pods-LocalBitcoinTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B5CA49AE3FECD6CCBF023E567681D0EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EFA2DB1E3909EE5A49AF3402ECC7D30 /* FlagKit.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FlagKit/FlagKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FlagKit/FlagKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FlagKit/FlagKit.modulemap";
+				PRODUCT_MODULE_NAME = FlagKit;
+				PRODUCT_NAME = FlagKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B70645E4D341DFC8754BF773C2EE90D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80F50993B34442D558786855270F4E4B /* Pods-LocalBitcoin.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LocalBitcoin/Pods-LocalBitcoin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LocalBitcoin/Pods-LocalBitcoin.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C0C54C57E715B1229E90CB76E08416B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EFA2DB1E3909EE5A49AF3402ECC7D30 /* FlagKit.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FlagKit/FlagKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FlagKit/FlagKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FlagKit/FlagKit.modulemap";
+				PRODUCT_MODULE_NAME = FlagKit;
+				PRODUCT_NAME = FlagKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -744,200 +934,10 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
-		};
-		727F54C1D6A4E5D0FF35E6F611FF417F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA55556015E960A1BB0EF35DF207620A /* Pods-LocalBitcoinUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LocalBitcoinUITests/Pods-LocalBitcoinUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LocalBitcoinUITests/Pods-LocalBitcoinUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		AD73A6B627F70A82D1EBFDB7C26040AC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0CE79F90D9ADB3A55C2B835FBAFD3F12 /* Pods-LocalBitcoinTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LocalBitcoinTests/Pods-LocalBitcoinTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LocalBitcoinTests/Pods-LocalBitcoinTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B5CA49AE3FECD6CCBF023E567681D0EC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DBB16D7BF14EFB555DBE9DE1B8222BF3 /* FlagKit.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FlagKit/FlagKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FlagKit/FlagKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/FlagKit/FlagKit.modulemap";
-				PRODUCT_MODULE_NAME = FlagKit;
-				PRODUCT_NAME = FlagKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B70645E4D341DFC8754BF773C2EE90D6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8436CA7E83B78D5B4D1C069E908EB6D4 /* Pods-LocalBitcoin.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LocalBitcoin/Pods-LocalBitcoin-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LocalBitcoin/Pods-LocalBitcoin.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C0C54C57E715B1229E90CB76E08416B7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DBB16D7BF14EFB555DBE9DE1B8222BF3 /* FlagKit.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FlagKit/FlagKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FlagKit/FlagKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/FlagKit/FlagKit.modulemap";
-				PRODUCT_MODULE_NAME = FlagKit;
-				PRODUCT_NAME = FlagKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -954,8 +954,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6DFA1578582149B7E24AD55CBA30F07A /* Debug */,
-				4CE281642D6EE9FAB113046B4B6328A0 /* Release */,
+				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
+				257497152829C177993B5EC99C1D227A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

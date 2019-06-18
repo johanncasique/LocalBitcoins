@@ -35,9 +35,9 @@ class MainListInteractor: MainListInteractorProtocol {
         self.dataManager = dataManager
     }
     
-    func loadAllAds(page: Int, completion: @escaping (MainListInteractorTypeResult) -> Void) {
+    func loadAllAds(from country: Country?, for page: Int, completion: @escaping (MainListInteractorTypeResult) -> Void) {
         
-        dataManager.loadAds(page: page) { (result) in
+        dataManager.loadAds(from: country, for: page) { (result) in
             
             switch result {
             case .sucess(let resultData):

@@ -11,6 +11,7 @@ import Foundation
 protocol CountriesPresenterProtocol: class {
     var numberOfRows: Int { get }
     var countryDelegate: CountrySelectedDelegate? { get set }
+    var countriesArray: [Country] { get set }
     
     func viewDidLoad()
     func model(from index: IndexPath) -> Country

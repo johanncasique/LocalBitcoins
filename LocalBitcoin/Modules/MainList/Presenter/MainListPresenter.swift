@@ -15,6 +15,7 @@ enum State {
     case empty
     case populated([AdList])
     case paging([AdList], next: Int)
+    case cleanData
     
     var currentAds: [AdList] {
         switch self {
@@ -39,11 +40,13 @@ class MainLisPresenter {
             case .loading: showLoadingView()
             case .populated: populateTableView()
             case .paging: populateTableView()
+            case .cleanData: cleanData()
             default: break
             }
         }
     }
     var allAdsArray = [AdList]()
+    var countrySelected: Country?
     
     init(interactor: MainListInteractorProtocol, router: MainListRouterProtocol) {
         self.interactor = interactor
@@ -52,17 +55,16 @@ class MainLisPresenter {
     
     private func loadAllAds() {
         state = .loading
-        request(with: 1)
+        request(for: countrySelected, with: 1)
     }
     
     private func update(_ page: Int) {
         state = .loading
-        request(with: page)
+        request(for: countrySelected, with: page)
     }
     
-    
-    private func request(with page: Int) {
-        interactor.loadAllAds(page: page) { [weak self] result in
+    private func request(for country: Country? = nil, with page: Int) {
+        interactor.loadAllAds(from: country, for: page) { [weak self] result in
             switch result {
             case .sucess(let adsData):
                 
@@ -87,6 +89,12 @@ class MainLisPresenter {
     private func populateTableView() {
         delegate?.hideLoading()
         delegate?.didRequestListItem()
+    }
+    
+    private func cleanData() {
+        allAdsArray.removeAll()
+        delegate?.didRequestListItem()
+        showLoadingView()
     }
     
     func showLoadingView() {
@@ -129,5 +137,8 @@ extension MainLisPresenter: MainListPresenterProtocol {
     
     func request(country: Country) {
         print(country.isoCode)
+        countrySelected = country
+        state = .cleanData
+        loadAllAds()
     }
 }

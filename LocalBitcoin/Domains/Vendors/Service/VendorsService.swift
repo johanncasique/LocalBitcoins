@@ -17,9 +17,19 @@ class VendorsService: VendorsServiceProtocol {
         self.loadURLString = loadURLString
     }
     
-    func loadMain(page: Int, completion: @escaping (VendorsServiceResult) -> Void) {
+    func loadData(with country: Country?, for page: Int, completion: @escaping (VendorsServiceResult) -> Void) {
         
-        let urlString = "\(loadURLString)?page=\(page)"
+        let urlString = "\(loadURLString)\(buildCountryPath(from: country)).json?page=\(page)"
+        
+        getData(from: urlString) { result in
+            switch result {
+            case .failure(let error): completion(.failure(error))
+            case .sucess(let success): completion(.sucess(success))
+            }
+        }
+    }
+    
+    private func getData(from urlString: String, completion: @escaping (VendorsServiceResult) -> Void) {
         
         webService.getData(urlService: urlString) { result in
             switch result {
@@ -35,8 +45,6 @@ class VendorsService: VendorsServiceProtocol {
                     completion(.failure(.noBitcoinData))
                 }
             case .sucess(let json):
-                
-                
                 do {
                     let mainData = try JSONDecoder().decode(MainDataEntity.self, from: json)
                     completion(.sucess(mainData))
@@ -45,6 +53,20 @@ class VendorsService: VendorsServiceProtocol {
                     completion(.failure(.invalidVendorData))
                 }
             }
+        }
+    }
+    
+    private func buildCountryPath(from countryISO: Country?) -> String {
+        
+        if let iso = countryISO, var countryName = Locale.countryName(from: iso.isoCode) {
+            let isoCode = iso.isoCode
+            countryName = countryName.removeWhiteSpaces
+            return "\(isoCode)/\(countryName)/"
+        } else {
+            let defaultCountryISO = Locale.countryISO ?? "VE"
+            let countryName = Locale.countryName(from: defaultCountryISO)?.removeWhiteSpaces ?? "venezuela"
+            
+            return "\(defaultCountryISO)/\(countryName)/"
         }
     }
 }

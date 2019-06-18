@@ -10,15 +10,14 @@ import Foundation
 
 class VendorsDataManager: VendorsDataManagerProtocol {
     
-    //TODO: create service init
     let service: VendorsServiceProtocol
     
     init(service: VendorsServiceProtocol) {
         self.service = service
     }
     
-    func loadAds(page: Int, completion: @escaping (VendorsDataManagerTypeResult) -> Void) {
-        service.loadMain(page: page) { result in
+    func loadAds(from country: Country?, for page: Int, completion: @escaping (VendorsDataManagerTypeResult) -> Void) {
+        service.loadData(with: country, for: page) { result in
             switch result {
                 
             case .sucess(let resultData):
