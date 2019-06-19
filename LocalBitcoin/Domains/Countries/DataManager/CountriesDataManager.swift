@@ -8,8 +8,6 @@
 
 import Foundation
 
-
-
 class CountriesDataManager: CountriesDataManagerProtocol {
     
     let countryService: CountriesServiceProtocol

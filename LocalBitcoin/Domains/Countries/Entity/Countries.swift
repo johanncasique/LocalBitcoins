@@ -37,5 +37,3 @@ struct Countries: Codable {
 struct Country: Codable {
     let isoCode: String
 }
-
-

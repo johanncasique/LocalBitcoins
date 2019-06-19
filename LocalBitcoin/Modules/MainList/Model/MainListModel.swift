@@ -31,7 +31,6 @@ struct DataDic: Decodable {
     }
 }
 
-
 struct AdList: Decodable {
     let buyData: BuyData
     

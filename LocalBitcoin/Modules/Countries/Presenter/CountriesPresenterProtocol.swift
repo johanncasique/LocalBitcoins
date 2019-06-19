@@ -24,5 +24,5 @@ protocol CountriesPresenterDelegate: class {
 }
 
 protocol CountrySelectedDelegate: class {
-    func didSelected(country: Country) -> Void
+    func didSelected(country: Country)
 }

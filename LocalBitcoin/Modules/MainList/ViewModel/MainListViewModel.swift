@@ -15,8 +15,6 @@ struct MainListViewModel {
     private(set) var maxLimits: String
     private(set) var paymentMethod: String
     private(set) var bankName: String
-    
-    
 }
 
 extension MainListViewModel {

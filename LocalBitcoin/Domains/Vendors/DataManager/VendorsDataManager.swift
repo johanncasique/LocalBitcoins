@@ -26,7 +26,7 @@ class VendorsDataManager: VendorsDataManagerProtocol {
                     return
                 }
                 completion(.sucess(data))
-            case .failure(_):
+            case .failure:
                 completion(.failure(.loadError))
             }
         }

@@ -32,7 +32,6 @@
 		1ED243E72204C3CD000021CD /* VendorsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED243E62204C3CD000021CD /* VendorsService.swift */; };
 		1EDC8D612206097800047D96 /* MainListTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDC8D602206097800047D96 /* MainListTableViewDataSource.swift */; };
 		1EE2B0FA21FA5D7800A090D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE2B0F921FA5D7800A090D4 /* AppDelegate.swift */; };
-		1EE2B0FC21FA5D7800A090D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE2B0FB21FA5D7800A090D4 /* ViewController.swift */; };
 		1EE2B0FF21FA5D7800A090D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EE2B0FD21FA5D7800A090D4 /* Main.storyboard */; };
 		1EE2B10221FA5D7800A090D4 /* LocalBitcoin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1EE2B10021FA5D7800A090D4 /* LocalBitcoin.xcdatamodeld */; };
 		1EE2B10421FA5D7900A090D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EE2B10321FA5D7900A090D4 /* Assets.xcassets */; };
@@ -43,7 +42,6 @@
 		1EE3C4C72208F1C5002C1E2F /* MainListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE3C4C62208F1C5002C1E2F /* MainListViewModel.swift */; };
 		45E1CDEA7997FBD5794A2D12 /* Pods_LocalBitcoin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E05EE29792CAF64767F8F4 /* Pods_LocalBitcoin.framework */; };
 		4D6F572FAAC2B2F36AD18A23 /* Pods_LocalBitcoinTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47A6EB65A09DBEEBB0BADAD4 /* Pods_LocalBitcoinTests.framework */; };
-		87AAE7A122B058B7003E3487 /* CountriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AAE7A022B058B7003E3487 /* CountriesView.swift */; };
 		A8ADE78C2236B9B700F942B7 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8ADE78B2236B9B700F942B7 /* DateExtension.swift */; };
 		A8ADE78F2236C0E400F942B7 /* CryptoAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8ADE78E2236C0E400F942B7 /* CryptoAlgorithm.swift */; };
 		A8ADE7912236C14600F942B7 /* DataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8ADE7902236C14600F942B7 /* DataExtension.swift */; };
@@ -118,7 +116,6 @@
 		1EDC8D602206097800047D96 /* MainListTableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListTableViewDataSource.swift; sourceTree = "<group>"; };
 		1EE2B0F621FA5D7800A090D4 /* LocalBitcoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalBitcoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EE2B0F921FA5D7800A090D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1EE2B0FB21FA5D7800A090D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1EE2B0FE21FA5D7800A090D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1EE2B10121FA5D7800A090D4 /* LocalBitcoin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LocalBitcoin.xcdatamodel; sourceTree = "<group>"; };
 		1EE2B10321FA5D7900A090D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -136,7 +133,6 @@
 		47A6EB65A09DBEEBB0BADAD4 /* Pods_LocalBitcoinTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocalBitcoinTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6891610F5DBFF663BB4FCCE9 /* Pods-LocalBitcoinUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalBitcoinUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LocalBitcoinUITests/Pods-LocalBitcoinUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		789F1FD5514971FE77E48228 /* Pods-LocalBitcoin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalBitcoin.release.xcconfig"; path = "Pods/Target Support Files/Pods-LocalBitcoin/Pods-LocalBitcoin.release.xcconfig"; sourceTree = "<group>"; };
-		87AAE7A022B058B7003E3487 /* CountriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesView.swift; sourceTree = "<group>"; };
 		A8ADE78B2236B9B700F942B7 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 		A8ADE78E2236C0E400F942B7 /* CryptoAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoAlgorithm.swift; sourceTree = "<group>"; };
 		A8ADE7902236C14600F942B7 /* DataExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataExtension.swift; sourceTree = "<group>"; };
@@ -455,7 +451,6 @@
 				1EC9110621FFB2A80019F069 /* Interactor */,
 				1EC9110521FFB2810019F069 /* Router */,
 				1EC9110421FFB2730019F069 /* Builder */,
-				1EE2B0FB21FA5D7800A090D4 /* ViewController.swift */,
 			);
 			path = MainList;
 			sourceTree = "<group>";
@@ -546,7 +541,6 @@
 				C5848586225BEC7600BA1502 /* Cell */,
 				C58485652258BB0300BA1502 /* CountriesViewController.swift */,
 				C5848584225BDB9000BA1502 /* CountriesViewController.xib */,
-				87AAE7A022B058B7003E3487 /* CountriesView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -659,6 +653,7 @@
 				1EE2B0F321FA5D7800A090D4 /* Frameworks */,
 				1EE2B0F421FA5D7800A090D4 /* Resources */,
 				98A5828769EA4BA6D376B3CA /* [CP] Embed Pods Frameworks */,
+				8708166322BAD4E700880C78 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -781,6 +776,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		8708166322BAD4E700880C78 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
 		98A5828769EA4BA6D376B3CA /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -796,7 +808,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LocalBitcoin/Pods-LocalBitcoin-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 		A06AB8D67550F5383E542DB9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -871,7 +882,6 @@
 				C5F53B40227A1127008F542C /* LocaleExtension.swift in Sources */,
 				C584857B2258D35000BA1502 /* CountriesDataManagerProtocol.swift in Sources */,
 				1EC9111821FFB8A30019F069 /* MainListViewController.swift in Sources */,
-				1EE2B0FC21FA5D7800A090D4 /* ViewController.swift in Sources */,
 				C58485832258F67D00BA1502 /* CountriesServiceProtocol.swift in Sources */,
 				C58485792258D32B00BA1502 /* CountriesDataManager.swift in Sources */,
 				A8ADE7912236C14600F942B7 /* DataExtension.swift in Sources */,
@@ -886,7 +896,6 @@
 				C584856C2258BB7700BA1502 /* CountriesInteractor.swift in Sources */,
 				1E64C7462205D52C00EF91A3 /* Environment.swift in Sources */,
 				1EB6449D22010AA0002F2188 /* MainListInteractorProtocol.swift in Sources */,
-				87AAE7A122B058B7003E3487 /* CountriesView.swift in Sources */,
 				C58485752258BC1800BA1502 /* CountriesBuilder.swift in Sources */,
 				C584857E2258D57100BA1502 /* Countries.swift in Sources */,
 				1EDC8D612206097800047D96 /* MainListTableViewDataSource.swift in Sources */,

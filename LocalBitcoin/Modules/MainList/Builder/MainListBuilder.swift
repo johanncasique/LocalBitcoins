@@ -16,12 +16,12 @@ class MainListBuilder: EnvironmentConsumer, BuilderProtocol {
         let presenter = MainLisPresenter(interactor: interactor, router: router)
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let dataSource = MainListTableViewDataSource(presenter: presenter)
-        let view = storyboard.instantiateInitialViewController() as! MainListViewController
-        view.presenter = presenter
-        view.dataSource = dataSource
+        let view = storyboard.instantiateInitialViewController() as? MainListViewController
+        view?.presenter = presenter
+        view?.dataSource = dataSource
         presenter.delegate = view
         router.baseView = view
         
-        return view
+        return view ?? UIViewController()
     }
 }

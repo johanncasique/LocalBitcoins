@@ -8,8 +8,6 @@
 
 import Foundation
 
-
-
 class WebService: WebServiceProtocol {
     
     func getData(urlService: EndpointString, completion: @escaping (WebServiceTypeDataResult) -> Void) {
@@ -32,13 +30,12 @@ class WebService: WebServiceProtocol {
 //            print(error)
 //            }.resume()
         
-        
         //        '1551522241766'
         //        '277DD6FD6CF6C54488026AEA97D2D18A532CE0CB9C44170A4A920AAC6944D3B7'
         //        '5e38f8f943ebd582447fb61a3e828bf7'
-        let request = URLRequest(url: URL(string:"https://localbitcoins.com\(urlService)")!)
+        let request = URLRequest(url: URL(string: "https://localbitcoins.com\(urlService)")!)
         DispatchQueue.global(qos: .background).async {
-            URLSession.shared.dataTask(with: request) { (data, response, error) in
+            URLSession.shared.dataTask(with: request) { (data, _, error) in
                 
                 DispatchQueue.main.async {
                     guard error == nil else {
@@ -55,7 +52,6 @@ class WebService: WebServiceProtocol {
                 }.resume()
         }
     }
-    
     
     private func buildRequest(with endpointString: EndpointString) -> URLRequest {
         
