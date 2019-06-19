@@ -23,14 +23,10 @@ class CountriesInteractor: CountriesInteractorProtocol {
             switch result {
             case .failure(let error):
                 print(error)
-                
             case .sucess(let countryData):
                 let countryArray = countryData.countryList.compactMap { Country(isoCode:$0) }
                 completion(.sucess(countryArray))
             }
-            
         }
     }
-    
-    
 }
