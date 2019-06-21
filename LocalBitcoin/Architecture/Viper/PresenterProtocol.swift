@@ -14,5 +14,5 @@ protocol PresenterProtocol: class {
 }
 
 extension PresenterProtocol {
-    func viewDidBecomeActive() {      }
+    func viewDidBecomeActive() {}
 }
