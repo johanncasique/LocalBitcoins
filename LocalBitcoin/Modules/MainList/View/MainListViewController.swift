@@ -19,9 +19,16 @@ class MainListViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupTableView()
+        presenter?.viewDidLoad()
+    }
+    
+    private func setupTableView() {
         tableView.dataSource = dataSource
         tableView.registerNibCell(MainListTableViewCell.self)
-        presenter?.viewDidLoad()
+        tableView.estimatedRowHeight = 140
+        tableView.rowHeight = UITableView.automaticDimension
+        tableView.separatorStyle = .none
     }
     
     @IBAction func openCountries(_ sender: UIButton) {
