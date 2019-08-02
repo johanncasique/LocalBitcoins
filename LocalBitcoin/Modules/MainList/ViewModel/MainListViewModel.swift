@@ -8,6 +8,12 @@
 
 import Foundation
 
+enum OnlineStatus {
+    case online
+    case recently
+    case offline
+}
+
 struct MainListViewModel {
     private(set) var profile: Profile
     private(set) var tempPrice: String
@@ -32,6 +38,23 @@ extension MainListViewModel {
         return profile.userName ?? ""
     }
     
+    public var getRate: Int {
+        switch profile.feedbackScore {
+        case 0...20:
+            return 1
+        case 0...40:
+            return 2
+        case 0...60:
+            return 3
+        case 0...80:
+            return 4
+        case 0...100:
+            return 5
+        default:
+            return 0
+        }
+    }
+    
     public var getPrice: String {
         return tempPrice
     }
@@ -42,6 +65,10 @@ extension MainListViewModel {
     
     public var getPaymentsMethod: String {
         return "\(paymentMethod): \(bankName)"
+    }
+    
+    public var isOnline: OnlineStatus {
+        return .recently
     }
     
 }

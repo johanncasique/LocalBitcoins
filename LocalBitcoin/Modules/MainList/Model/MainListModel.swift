@@ -82,7 +82,7 @@ struct BuyData: Decodable {
     
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
-        let profile: Profile = try container.decodeIfPresent(Profile.self, forKey: .profile) ?? Profile(userName: "")
+        let profile: Profile = try container.decodeIfPresent(Profile.self, forKey: .profile) ?? Profile(userName: "", feedbackScore: 0, tradeCount: "", lastOnline: "")
         let price: String = try container.decodeIfPresent(String.self, forKey: .tempPrice) ?? ""
         let minLimits: String = try container.decodeIfPresent(String.self, forKey: .minLimits) ?? ""
         let maxLimits: String = try container.decodeIfPresent(String.self, forKey: .maxLimits) ?? ""
@@ -94,18 +94,30 @@ struct BuyData: Decodable {
 
 struct Profile: Decodable {
     var userName: String?
+    var feedbackScore: Int
+    var tradeCount: String
+    var lastOnline: String
     
-    init(userName: String) {
+    init(userName: String, feedbackScore: Int, tradeCount: String, lastOnline: String) {
         self.userName = userName
+        self.feedbackScore = feedbackScore
+        self.tradeCount = tradeCount
+        self.lastOnline = lastOnline
     }
     
     enum CodingKeys: String, CodingKey {
         case userName = "username"
+        case feedbackScore = "feedback_score"
+        case tradeCount = "trade_count"
+        case lastOnline = "last_online"
     }
     
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         let userName: String = try container.decode(String.self, forKey: .userName)
-        self.init(userName: userName)
+        let feedbackScore: Int = try container.decode(Int.self, forKey: .feedbackScore)
+        let tradeCount: String = try container.decode(String.self, forKey: .tradeCount)
+        let lastOnline: String = try container.decode(String.self, forKey: .lastOnline)
+        self.init(userName: userName, feedbackScore: feedbackScore, tradeCount: tradeCount, lastOnline: lastOnline)
     }
 }
